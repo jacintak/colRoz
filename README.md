@@ -6,8 +6,8 @@ Themed colour pacakages are all the rage. So Nicholas asked Jacinta to make him 
 
 Jacinta Kong adapted the code from the following packages:
 
-* (LaCroixColoR)[https://github.com/johannesbjork/LaCroixColoR]
-* (wesanderson)[https://github.com/karthik/wesanderson]
+* [LaCroixColoR](https://github.com/johannesbjork/LaCroixColoR)
+* [wesanderson](https://github.com/karthik/wesanderson)
 
 Nicholas Wu designed the palettes
 

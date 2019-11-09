@@ -1,4 +1,5 @@
 #' Function to print color palettes
+#'
 #' @param n: Number of colors desired If omitted, uses all colours.
 #' @param name: Name of color palette desired.
 #' @export

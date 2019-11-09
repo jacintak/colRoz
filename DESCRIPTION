@@ -9,7 +9,7 @@ Authors@R: as.person(c(
   ))
 Maintainer: Jacinta Kong <kongj@tcd.ie>
 Description: Does what the title says.
-     Australia is the best lucky country. Even a kiwi thinks so.
+     Australia is the lucky country. Even a kiwi thinks so.
 License: MIT + License
 Encoding: UTF-8
 LazyData: true
