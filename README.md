@@ -11,6 +11,12 @@ Themed colour pacakages are all the rage. So Nicholas asked Jacinta to make him 
 
 [Nicholas Wu](https://github.com/nicholaswunz) designed the palettes.
 
+contact: <kongj@tcd.ie>
+
+** Twitter **   
+[@jacintakong](https://twitter.com/jacintakong)   
+[@NicholasWuNZ](https://twitter.com/NicholasWuNZ)  
+
 ***
 
 # Install package
