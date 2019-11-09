@@ -5,7 +5,7 @@ Date: 2019-11-09
 Version: 0.1.0
 Authors@R: as.person(c(
     "Jacinta Kong <kongj@tcd.ie> [aut, cre]", 
-    "Nicholas Wu <nicholas@usyd.edu.au> [aut]"
+    "Nicholas Wu <nicholas.wu.nz@gmail.com> [aut]"
   ))
 Maintainer: Jacinta Kong <kongj@tcd.ie>
 Description: Does what the title says.

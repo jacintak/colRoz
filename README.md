@@ -1,15 +1,15 @@
 # colROz
 
-Themed colour pacakages are all the rage. So Nicholas asked Jacinta to make him a colour package. This package is based on the colours of Australia which we can all agree is the most beautiful. If a kiwi can be convinced, then it must be so.
+Themed colour pacakages are all the rage. So Nicholas asked Jacinta to make him a colour package. These palettes are based on the colours of Australia which we can all agree is the most beautiful. If a kiwi can be convinced, then it must be so.
 
 ## Credits
 
-Jacinta Kong adapted the code from the following packages:
+[Jacinta Kong](https://github.com/jacintak/) adapted the code from the following packages:
 
 * [LaCroixColoR](https://github.com/johannesbjork/LaCroixColoR)
 * [wesanderson](https://github.com/karthik/wesanderson)
 
-Nicholas Wu designed the palettes
+[Nicholas Wu](https://github.com/nicholaswunz) designed the palettes.
 
 ***
 
