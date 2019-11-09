@@ -1,5 +1,6 @@
 #' An Australian palette generator
-#' param n Number of colors desired.
+#'
+#' @param n Number of colors desired.
 #'   If omitted, uses all colours.
 #' @param name Name of desired palette. Choices are:
 #'   \code{BottleRocket1}, \code{BottleRocket2},  \code{Rushmore1},
@@ -9,11 +10,11 @@
 #'   \code{GrandBudapest1}, \code{GrandBudapest2}, \code{IsleofDogs1}, \code{IsleofDogs2}
 #' @param type Either "continuous" or "discrete". Use continuous if you want
 #'   to automatically interpolate between colours.
-#'   @importFrom graphics rgb rect par image text
 #' @return A vector of colours.
 #' @export
 #' @keywords colours
 #' @export
+#'
 oz_palettes <- list(
   PassionFruit = rbind(c("#C70E7B", "#FC6882","#A6E000","#1BB6AF","#6C6C9D","#172869"),c(1,3,2,4,5,6)),
   Mango = rbind(c("#FF5300","#9ED80B","#43B629","#1BB6AF","#8F92A1","#172869"), c(1,2,6,3,5,4)),

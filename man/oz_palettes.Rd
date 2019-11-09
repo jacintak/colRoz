@@ -3,14 +3,15 @@
 \docType{data}
 \name{oz_palettes}
 \alias{oz_palettes}
-\title{An Australian palette generator
-param n Number of colors desired.
-  If omitted, uses all colours.}
+\title{An Australian palette generator}
 \format{An object of class \code{list} of length 21.}
 \usage{
 oz_palettes
 }
 \arguments{
+\item{n}{Number of colors desired.
+If omitted, uses all colours.}
+
 \item{name}{Name of desired palette. Choices are:
 \code{BottleRocket1}, \code{BottleRocket2},  \code{Rushmore1},
 \code{Royal1}, \code{Royal2},  \code{Zissou1}, \code{Darjeeling1},
@@ -19,15 +20,12 @@ oz_palettes
 \code{GrandBudapest1}, \code{GrandBudapest2}, \code{IsleofDogs1}, \code{IsleofDogs2}}
 
 \item{type}{Either "continuous" or "discrete". Use continuous if you want
-to automatically interpolate between colours.
-@importFrom graphics rgb rect par image text}
+to automatically interpolate between colours.}
 }
 \value{
 A vector of colours.
 }
 \description{
 An Australian palette generator
-param n Number of colors desired.
-  If omitted, uses all colours.
 }
 \keyword{colours}
