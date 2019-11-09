@@ -57,5 +57,5 @@ print_palette(colRoz_pal("ngadju"))
 ```
 
 ## *Warramaba ngadju*
-![](images/ngadju.jpeg){height=200px}
-![](https://jacintakongresearch.files.wordpress.com/2015/03/file_000.jpeg){height=200px}
+![](images/ngadju.jpeg | height=200)
+![](https://jacintakongresearch.files.wordpress.com/2015/03/file_000.jpeg | height=200)
