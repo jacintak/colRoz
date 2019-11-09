@@ -17,8 +17,8 @@ Until more palettes get added there is a set of palettes based on the colours of
 contact: <kongj@tcd.ie>
 
 **Twitter**   
-[@jacintakong](https://twitter.com/jacintakong)   
-[@NicholasWuNZ](https://twitter.com/NicholasWuNZ)  
+[jacintakong](https://twitter.com/jacintakong)   
+[NicholasWuNZ](https://twitter.com/NicholasWuNZ)  
 
 ***
 
@@ -56,3 +56,4 @@ theme_classic()
 print_palette(colRoz_pal("ngadju"))
 ```
 
+![](images/ngadju.jpeg)
