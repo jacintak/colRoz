@@ -7,7 +7,7 @@ Until more palettes get added there is a set of palettes based on the colours of
 
 ## Credits
 
-[Jacinta Kong](https://github.com/jacintak/) adapted the code from the following packages:
+[Jacinta Kong](https://jacintak.github.io) adapted the code from the following packages:
 
 * [LaCroixColoR](https://github.com/johannesbjork/LaCroixColoR)
 * [wesanderson](https://github.com/karthik/wesanderson)
