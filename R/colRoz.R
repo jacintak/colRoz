@@ -9,7 +9,7 @@
 #' @export
 #' @examples
 #' colRoz_pal(name = "grandis")
-#' For continuous gradients, use colour_fill_gradientn() in ggplot
+#' For continuous gradients, you can also use colour_fill_gradientn() in ggplot
 #'
 colRoz_pal <- function(name, n, type = c("discrete","continuous","paired")) {
 
