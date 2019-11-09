@@ -3,16 +3,16 @@
 Themed colour packages are all the rage. So Nicholas asked Jacinta to make him a colour package. These palettes are based on the colours of Australia which we can all agree is the most beautiful country in the world. If a kiwi can be convinced, then it must be so.
 
 ## *Warramaba*
-Until more palettes get added there is a set of palettes based on the colours of matchstick grasshoppers in the genus *Warramaba*. 
+Until more palettes get added there is a set of palettes based on the colours of matchstick grasshoppers in the genus *Warramaba*. You can read more about matchstick grasshoppers on [Jacinta's website](https://jacintakongresearch.wordpress.com/matchstick-grasshoppers/).
 
 ## Credits
 
-[Jacinta Kong](https://jacintak.github.io) adapted the code from the following packages:
+[Jacinta Kong](https://jacintak.github.io) designed the *Warramaba* palette and adapted the code from the following packages:
 
 * [LaCroixColoR](https://github.com/johannesbjork/LaCroixColoR)
 * [wesanderson](https://github.com/karthik/wesanderson)
 
-[Nicholas Wu](https://github.com/nicholaswunz) designed the palettes.
+[Nicholas Wu](https://github.com/nicholaswunz) designed the other palettes.
 
 contact: <kongj@tcd.ie>
 
@@ -56,4 +56,6 @@ theme_classic()
 print_palette(colRoz_pal("ngadju"))
 ```
 
-![](images/ngadju.jpeg)
+## *Warramaba ngadju*
+![](images/ngadju.jpeg){height=200px}
+![](https://jacintakongresearch.files.wordpress.com/2015/03/file_000.jpeg){height=200px}
