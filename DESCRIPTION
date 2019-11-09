@@ -1,0 +1,19 @@
+Package: colRoz
+Type: Package
+Title: A colour palette for the land down under
+Date: 2019-11-09
+Version: 0.1.0
+Authors@R: as.person(c(
+    "Jacinta Kong <kongj@tcd.ie> [aut, cre]", 
+    "Nicholas Wu <nicholas@usyd.edu.au> [aut]"
+  ))
+Maintainer: Jacinta Kong <kongj@tcd.ie>
+Description: Does what the title says.
+     Australia is the best lucky country. Even a kiwi thinks so.
+License: MIT + License
+Encoding: UTF-8
+LazyData: true
+URL: https://jacintak.github.io/colRoz
+Suggests:
+    ggplot2
+RoxygenNote: 6.1.1
