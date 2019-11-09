@@ -13,7 +13,7 @@ Themed colour pacakages are all the rage. So Nicholas asked Jacinta to make him 
 
 contact: <kongj@tcd.ie>
 
-** Twitter **   
+**Twitter**   
 [@jacintakong](https://twitter.com/jacintakong)   
 [@NicholasWuNZ](https://twitter.com/NicholasWuNZ)  
 
