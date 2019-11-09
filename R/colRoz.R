@@ -8,10 +8,10 @@
 #' @param type: Either "discrete", "continuous", or "paired".
 #' @export
 #' @examples
-#' colRoz_palette(name = "Mango", n = 6, type = "continuous")
+#' colRoz_pal(name = "grandis")
 #' For continuous gradients, use colour_fill_gradientn() in ggplot
 #'
-colRoz_palette <- function(name, n, type = c("discrete","continuous","paired")) {
+colRoz_pal <- function(name, n, type = c("discrete","continuous","paired")) {
 
   if (missing(type)) {
     type <- "continuous"

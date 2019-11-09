@@ -4,7 +4,7 @@
 \name{oz_palettes}
 \alias{oz_palettes}
 \title{An Australian palette generator}
-\format{An object of class \code{list} of length 21.}
+\format{An object of class \code{list} of length 6.}
 \usage{
 oz_palettes
 }
@@ -13,11 +13,8 @@ oz_palettes
 If omitted, uses all colours.}
 
 \item{name}{Name of desired palette. Choices are:
-\code{BottleRocket1}, \code{BottleRocket2},  \code{Rushmore1},
-\code{Royal1}, \code{Royal2},  \code{Zissou1}, \code{Darjeeling1},
-\code{Darjeeling2},  \code{Chevalier1} , \code{FantasticFox1} ,
-\code{Moonrise1}, \code{Moonrise2}, \code{Moonrise3}, \code{Cavalcanti1},
-\code{GrandBudapest1}, \code{GrandBudapest2}, \code{IsleofDogs1}, \code{IsleofDogs2}}
+\code{grandis}, \code{flavolineata},  \code{whitei},
+\code{picta}, \code{virgo},  \code{ngadju}}
 
 \item{type}{Either "continuous" or "discrete". Use continuous if you want
 to automatically interpolate between colours.}

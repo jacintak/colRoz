@@ -15,6 +15,6 @@ print_palette(x, ...)
 Function to print color palettes
 }
 \examples{
-print_palette(colRoz_palette("Lime"))
+print_palette(colRoz_pal("grandis"))
 
 }

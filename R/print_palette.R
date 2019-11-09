@@ -4,7 +4,7 @@
 #' @param name: Name of color palette desired.
 #' @export
 #' @examples
-#' print_palette(colRoz_palette("Lime"))
+#' print_palette(colRoz_pal("grandis"))
 #'
 print_palette <- function(x, ...) {
   n <- length(x)
