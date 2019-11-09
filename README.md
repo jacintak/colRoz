@@ -4,7 +4,7 @@ Themed colour packages are all the rage. So Nicholas asked Jacinta to make him a
 
 ## Credits
 
-[Jacinta Kong](https://github.com/jacintak/) adapted the code from the following packages:
+[Jacinta Kong](https://jacintak.github.io) adapted the code from the following packages:
 
 * [LaCroixColoR](https://github.com/johannesbjork/LaCroixColoR)
 * [wesanderson](https://github.com/karthik/wesanderson)
