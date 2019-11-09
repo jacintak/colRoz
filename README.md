@@ -58,4 +58,4 @@ print_palette(colRoz_pal("ngadju"))
 
 ## *Warramaba ngadju*
 ![](images/ngadju.jpeg)
-<img src="(https://jacintakongresearch.files.wordpress.com/2015/03/file_000.jpeg" height=200>
+<img src="https://jacintakongresearch.files.wordpress.com/2015/03/file_000.jpeg" height=200>
