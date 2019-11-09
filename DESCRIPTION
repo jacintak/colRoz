@@ -13,7 +13,7 @@ Description: Does what the title says.
 License: MIT + License
 Encoding: UTF-8
 LazyData: true
-URL: https://jacintak.github.io/colRoz
+URL: https://github.com/jacintak/colRoz
 Suggests:
     ggplot2
 RoxygenNote: 6.1.1
