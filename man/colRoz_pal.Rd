@@ -18,7 +18,7 @@ This function allows you to generate color palettes based on Australian scenes
 }
 \examples{
 colRoz_pal(name = "grandis")
-For continuous gradients, use colour_fill_gradientn() in ggplot
+For continuous gradients, you can also use colour_fill_gradientn() in ggplot
 
 }
 \keyword{color}
