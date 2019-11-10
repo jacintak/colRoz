@@ -1,4 +1,4 @@
-# colRoz
+# colRoz - A colour palette from the land down under
 
 Themed colour packages are all the rage. So Nicholas asked Jacinta to make him a colour package. These palettes are based on the colours of Australia which we can all agree is the most beautiful country in the world. If a kiwi can be convinced, then it must be so.
 
@@ -40,7 +40,7 @@ names(oz_palettes)
 ```
 
 
-# Example
+# Example use
 ```
 # Usage in a graph
 
@@ -56,6 +56,11 @@ theme_classic()
 print_palette(colRoz_pal("ngadju"))
 ```
 
-## *Warramaba ngadju*
-![](images/ngadju.jpeg)
-<img src="https://jacintakongresearch.files.wordpress.com/2015/03/file_000.jpeg" height=200>
+# Example colour palettes
+
+### *Warramaba ngadju*
+<img src="https://github.com/jacintak/colRoz/blob/master/images/ngadju.jpeg" height=250> <img src="https://jacintakongresearch.files.wordpress.com/2015/03/file_000.jpeg" height=250>
+
+### *Ctenophorus decresii*
+<img src="https://github.com/jacintak/colRoz/blob/master/images/c.decresii.png" height=250> <img src="https://github.com/jacintak/colRoz/blob/master/raw_images/c.decresii.jpg" height=250>
+
