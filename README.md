@@ -74,10 +74,10 @@ print_palette(colRoz_pal("c.decresii"))
 ## Example palettes with the real thing
 
 ### *Warramaba ngadju*
-<img src="https://github.com/jacintak/colRoz/blob/master/images/ngadju.jpeg" height=250> <img src="https://jacintakongresearch.files.wordpress.com/2015/03/file_000.jpeg" height=250>
+<img src="https://github.com/jacintak/colRoz/blob/master/images/ngadju.jpeg"> <img src="https://jacintakongresearch.files.wordpress.com/2015/03/file_000.jpeg" height=250>
 
 ### *Ctenophorus decresii*
-<img src="https://github.com/jacintak/colRoz/blob/master/images/c.decresii.png" height=200> <img src="https://github.com/jacintak/colRoz/blob/master/raw_images/c.decresii.jpg" height=200>
+<img src="https://github.com/jacintak/colRoz/blob/master/images/c.decresii.jpeg"> <img src="https://github.com/jacintak/colRoz/blob/master/raw_images/c.decresii.jpg" height=200>
 
 ***
 
