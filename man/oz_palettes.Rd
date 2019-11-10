@@ -3,26 +3,32 @@
 \docType{data}
 \name{oz_palettes}
 \alias{oz_palettes}
-\title{An Australian palette generator}
-\format{An object of class \code{list} of length 6.}
+\title{Palettes inspired by Australia}
+\format{An object of class \code{list} of length 5.}
 \usage{
 oz_palettes
-}
-\arguments{
-\item{n}{Number of colors desired.
-If omitted, uses all colours.}
-
-\item{name}{Name of desired palette. Choices are:
-\code{grandis}, \code{flavolineata},  \code{whitei},
-\code{picta}, \code{virgo},  \code{ngadju}}
-
-\item{type}{Either "continuous" or "discrete". Use continuous if you want
-to automatically interpolate between colours.}
 }
 \value{
 A vector of colours.
 }
 \description{
-An Australian palette generator
+Palettes stored in nested lists according to theme.
+Choices of palettes are:
+  \code{warramaba}: palettes for matchstick grasshoppers (Warramaba)
+  \code{lizards}: palettes for Australian lizards,
+  \code{landscape}: palettes for Australian landscapes,
+  \code{birds}: palettes for Australian birds,
+  \code{frogs}: palettes for Australian frogs
+}
+\examples{
+# Call themed sets of palettes
+oz_palettes[["lizards"]] # or
+oz_palettes$lizards
+
+# Call individual palettes using square brackets
+oz_palettes[["lizards"]][["c.decresii"]] # or
+oz_palettes$lizards$c.decresii
+
 }
 \keyword{colours}
+\keyword{palette}

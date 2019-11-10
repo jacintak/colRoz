@@ -7,19 +7,21 @@
 colRoz_pal(name, n, type = c("discrete", "continuous", "paired"))
 }
 \arguments{
-\item{n:}{Number of colors desired If omitted, uses all colours.}
+\item{name}{Name of color palette desired.}
 
-\item{name:}{Name of color palette desired.}
+\item{n}{Number of colors desired If omitted, uses all colours.}
 
-\item{type:}{Either "discrete", "continuous", or "paired".}
+\item{type}{Either "discrete", "continuous", or "paired".}
 }
 \description{
-This function allows you to generate color palettes based on Australian scenes
+This function allows you to generate color palettes based on Australian scenes.
+    Discrete palettes cannot contain more than the maximum number of colours.
+    Continuous palettes are interpolated between the first and last colour in the palette.
 }
 \examples{
-colRoz_pal(name = "grandis")
-For continuous gradients, you can also use colour_fill_gradientn() in ggplot
-
+colRoz_pal(name = "grandis") # For continuous gradients, you can also use colour_fill_gradientn() in ggplot
+colRoz_pal("m.horridus") # standard 5 options
+colRoz_pal("m.horridus", n = 50, type = "continuous") # convert to continuous with 50 colours
 }
 \keyword{color}
 \keyword{palettes}

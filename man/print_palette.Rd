@@ -7,14 +7,16 @@
 print_palette(x, ...)
 }
 \arguments{
-\item{n:}{Number of colors desired If omitted, uses all colours.}
-
-\item{name:}{Name of color palette desired.}
+\item{name:}{Name of color palette desired.
+    Use \code{colRoz_pal} variables to control which palette is displayed.
+    @param n: Number of colors desired If omitted, uses all colours.
+    @param type: Select discrete or continuous (default) colour choices.
+#' @export}
 }
 \description{
 Function to print color palettes
 }
 \examples{
-print_palette(colRoz_pal("grandis"))
-
+print_palette(colRoz_pal("grandis", n=3, type = "discrete"))
+print_palette(colRoz_pal("c.decresii"))
 }

@@ -2,4 +2,3 @@
 
 export(colRoz_pal)
 export(oz_palettes)
-export(print_palette)

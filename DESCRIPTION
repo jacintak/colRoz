@@ -7,7 +7,6 @@ Authors@R: as.person(c(
     "Jacinta Kong <kongj@tcd.ie> [aut, cre]", 
     "Nicholas Wu <nicholas.wu.nz@gmail.com> [aut]"
   ))
-Maintainer: Jacinta Kong <kongj@tcd.ie>
 Description: Does what the title says.
      Australia is the lucky country. Even a kiwi thinks so.
 License: MIT + License

@@ -2,8 +2,28 @@
 
 Themed colour packages are all the rage. So Nicholas asked Jacinta to make him a colour package. These palettes are based on the colours of Australia which we can all agree is the most beautiful country in the world. If a kiwi can be convinced, then it must be so.
 
+# Palettes
+
 ## *Warramaba*
-Until more palettes get added there is a set of palettes based on the colours of matchstick grasshoppers in the genus *Warramaba*. You can read more about matchstick grasshoppers on [Jacinta's website](https://jacintakongresearch.wordpress.com/matchstick-grasshoppers/).
+These are palettes based on the colours of matchstick grasshoppers in the genus *Warramaba*. You can read more about matchstick grasshoppers on [Jacinta's website](https://jacintakongresearch.wordpress.com/matchstick-grasshoppers/).
+
+## Lizards
+These are palettes based on native Australian lizards.
+
+## Landscapes
+To be added
+
+## Birds
+To be added
+
+## Frogs
+To be added
+
+***
+
+## News
+
+See [news.md](https://github.com/jacintak/colRoz/news.md) for latest updates
 
 ## Credits
 
