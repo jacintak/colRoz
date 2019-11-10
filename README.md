@@ -23,7 +23,7 @@ To be added
 
 ## News
 
-See [news.md](https://github.com/jacintak/colRoz/news.md) for latest updates
+See [news.md](https://github.com/jacintak/colRoz/blob/master/NEWS.md) for latest updates
 
 ## Credits
 
@@ -64,7 +64,7 @@ names(oz_palettes)
 ```
 # Usage in a graph
 
-pal <- colRoz_pal(name = "grandis")
+pal <- colRoz_pal(name = "grandis", n = 3, type = "discrete")
 
 library("ggplot2")
 ggplot(iris, aes(Petal.Width, Petal.Length , colour=Species)) +

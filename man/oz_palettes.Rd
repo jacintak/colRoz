@@ -14,7 +14,7 @@ A vector of colours.
 \description{
 Palettes stored in nested lists according to theme.
 Choices of palettes are:
-  \code{warramaba}: palettes for matchstick grasshoppers (Warramaba)
+  \code{warramaba}: palettes for matchstick grasshoppers (Warramaba),
   \code{lizards}: palettes for Australian lizards,
   \code{landscape}: palettes for Australian landscapes,
   \code{birds}: palettes for Australian birds,

@@ -2,12 +2,13 @@
 #'
 #' @param name: Name of color palette desired.
 #'     Use \code{colRoz_pal} variables to control which palette is displayed.
-#'     @param n: Number of colors desired If omitted, uses all colours.
-#'     @param type: Select discrete or continuous (default) colour choices.
-#' #' @export
+#' @param n: Number of colors desired If omitted, uses all colours.
+#' @param type: Select discrete or continuous (default) colour choices.
+#' @export
 #' @examples
 #' print_palette(colRoz_pal("grandis", n=3, type = "discrete"))
 #' print_palette(colRoz_pal("c.decresii"))
+#'
 print_palette <- function(x, ...) {
   n <- length(x)
   old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
