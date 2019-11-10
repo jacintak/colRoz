@@ -1,4 +1,4 @@
-# colRoz - A colour palette from the land down under
+# colRoz - A wildlife colour palette from the land down under
 
 Themed colour packages are all the rage. So Nicholas asked Jacinta to make him a colour package. These palettes are based on the colours of Australia which we can all agree is the most beautiful country in the world. If a kiwi can be convinced, then it must be so.
 
@@ -8,7 +8,7 @@ Themed colour packages are all the rage. So Nicholas asked Jacinta to make him a
 These are palettes based on the colours of matchstick grasshoppers in the genus *Warramaba*. You can read more about matchstick grasshoppers on [Jacinta's website](https://jacintakongresearch.wordpress.com/matchstick-grasshoppers/).
 
 ## Lizards
-These are palettes based on native Australian lizards.
+These are palettes based on some of the native Australian lizards.
 
 ## Landscapes
 To be added
@@ -74,10 +74,13 @@ print_palette(colRoz_pal("c.decresii"))
 ## Example palettes with the real thing
 
 ### *Warramaba ngadju*
-<img src="https://github.com/jacintak/colRoz/blob/master/images/ngadju.png" height=200> <img src="https://jacintakongresearch.files.wordpress.com/2015/03/file_000.jpeg" height=200>
+<img src="https://github.com/jacintak/colRoz/blob/master/images/ngadju.png" height=200><img src="https://jacintakongresearch.files.wordpress.com/2015/03/file_000.jpeg" height=200>
 
-### *Ctenophorus decresii*
-<img src="https://github.com/jacintak/colRoz/blob/master/images/c.decresii.png" height=200> <img src="https://github.com/jacintak/colRoz/blob/master/raw_images/c.decresii.jpg" height=200>
+### Tawny dragon (*Ctenophorus decresii*)
+<img src="https://github.com/jacintak/colRoz/blob/master/images/c.decresii.png" height=200><img src="https://github.com/jacintak/colRoz/blob/master/raw_images/c.decresii.jpg" height=150>
+
+### Blue Mountains water skink (*Eulamprus leuraensis*)
+<img src="https://github.com/jacintak/colRoz/blob/master/images/e.leuraensis.png" height=200><img src="https://github.com/jacintak/colRoz/blob/master/raw_images/e.leuraensis_P.Soltys.jpg" height=150>
 
 ***
 
@@ -99,4 +102,4 @@ contact: <kongj@tcd.ie>
 ## Photo credits
 
 * *Warramaba*: Barry Kearney, Jacinta Kong
-* lizards: 
+* Lizards: Peter Soltys, Ross McGibbon
