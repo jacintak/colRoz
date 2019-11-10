@@ -64,7 +64,7 @@ names(oz_palettes)
 ```
 # Usage in a graph
 
-pal <- colRoz_pal(name = "grandis", n = 3, type = "discrete")
+pal <- colRoz_pal(name = "ngadju", n = 3, type = "discrete")
 
 library("ggplot2")
 ggplot(iris, aes(Petal.Width, Petal.Length , colour=Species)) +
@@ -73,7 +73,7 @@ scale_colour_manual(values = pal) +
 theme_classic()
 
 # To visualise the palette
-print_palette(colRoz_pal("ngadju"))
+print_palette(colRoz_pal("c.decresii"))
 ```
 
 # Example colour palettes
