@@ -54,3 +54,6 @@ colRoz_pal <- function(name, n, type = c("discrete","continuous","paired")) {
 
   structure(out, class = "palette", name = ifelse(type == "paired", "paired", name))
 }
+
+#' example: colRoz_pal("m.horridus") # standard 5 options
+#' example: colRoz_pal("m.horridus", n = 50, type = "continuous") # convert to continuous with 50 colours
