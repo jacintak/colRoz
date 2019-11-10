@@ -7,7 +7,7 @@
 #' @keywords color palettes
 #' @param n Number of colors desired If omitted, uses all colours.
 #' @param name Name of color palette desired.
-#' @param type Either "discrete", "continuous", or "paired".
+#' @param type Either "discrete", "continuous" (default if empty), or "paired".
 #' @export
 #' @examples
 #' colRoz_pal(name = "grandis") # For continuous gradients, you can also use colour_fill_gradientn() in ggplot

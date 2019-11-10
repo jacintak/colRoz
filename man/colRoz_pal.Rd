@@ -11,7 +11,7 @@ colRoz_pal(name, n, type = c("discrete", "continuous", "paired"))
 
 \item{n}{Number of colors desired If omitted, uses all colours.}
 
-\item{type}{Either "discrete", "continuous", or "paired".}
+\item{type}{Either "discrete", "continuous" (default if empty), or "paired".}
 }
 \description{
 This function allows you to generate color palettes based on Australian scenes.
