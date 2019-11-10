@@ -19,6 +19,17 @@ To be added
 ## Frogs
 To be added
 
+# Contributing
+Got a palette idea? Submit a pull request on GitHub with your palette or set of palettes as a list like:
+
+```
+palette <- list(
+pal1 = rbind(c(<hex codes>), c(<order of discrete colours>))
+)
+```
+
+Our palettes are about 6 hex codes long but they can be any number you want. Alternatively get in touch via email or the issues tab on GitHub. We may not have time to choose colours for a given theme but if you already decided on the colour scheme, it's easy to copy and paste the hex codes into the relevant function (& you get credit of course).
+
 ***
 
 ## News
@@ -58,7 +69,6 @@ library("colRoz")
 names(oz_palettes)
 
 ```
-
 
 # Example use
 ```
