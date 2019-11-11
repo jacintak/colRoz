@@ -1,8 +1,7 @@
 # colRoz - A wildlife colour palette from the land down under
 
-<center>
-<img src="https://github.com/jacintak/colRoz/blob/master/images/colRoz_logo.png" height=200>
-</center>
+<img src="https://github.com/jacintak/colRoz/blob/master/images/colRoz_logo.png" height=250 align="middle" alt="colRozlogo">
+
 
 Themed colour packages are all the rage. So Nicholas asked Jacinta to make him a colour package. These palettes are based on the colours of Australia which we can all agree is the most beautiful country in the world. If a kiwi can be convinced, then it must be so.
 
