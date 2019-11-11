@@ -1,5 +1,5 @@
 [![HitCount](http://hits.dwyl.io/jacintak/colRoz.svg)](http://hits.dwyl.io/jacintak/colRoz)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)]
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 
 
 # colRoz - A wildlife colour palette from the land down under
