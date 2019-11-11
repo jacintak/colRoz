@@ -23,6 +23,10 @@ knitr::opts_chunk$set(
 )
 ```
 
+<center>
+![](../images/colRoz_logo.png){height=200}
+</center>
+
 # Introduction
 
 `colRoz` is a themed colour palette package by Jacinta Kong & Nicholas Wu. The palettes are based on the colour schemes of Australia. See README for details. 

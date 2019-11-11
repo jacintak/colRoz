@@ -1,5 +1,9 @@
 # colRoz - A wildlife colour palette from the land down under
 
+<center>
+<img src="https://github.com/jacintak/colRoz/blob/master/images/colRoz_logo.png" height=200>
+</center>
+
 Themed colour packages are all the rage. So Nicholas asked Jacinta to make him a colour package. These palettes are based on the colours of Australia which we can all agree is the most beautiful country in the world. If a kiwi can be convinced, then it must be so.
 
 # Palettes
@@ -91,7 +95,7 @@ print_palette(colRoz_pal("c.decresii"))
 * [LaCroixColoR](https://github.com/johannesbjork/LaCroixColoR)
 * [wesanderson](https://github.com/karthik/wesanderson)
 
-[Nicholas Wu](https://github.com/nicholaswunz) designed the other palettes.
+[Nicholas Wu](https://github.com/nicholaswunz) designed the other palettes and the logo.
 
 contact: <kongj@tcd.ie>
 

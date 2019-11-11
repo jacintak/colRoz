@@ -1,4 +1,9 @@
 # colRoz 0.1.1
+JK 11 Nov 2019
+
+* Now with logo
+
+# colRoz 0.1.1
 JK 10 Nov 2019
 
 * Added vignette
