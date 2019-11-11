@@ -1,3 +1,6 @@
+[![HitCount](http://hits.dwyl.io/jacintak/colRoz.svg)](http://hits.dwyl.io/jacintak/colRoz)
+
+
 # colRoz - A wildlife colour palette from the land down under
 
 <img align="right" src="https://github.com/jacintak/colRoz/blob/master/images/colRoz_logo.png" height=250 alt="colRozlogo">
