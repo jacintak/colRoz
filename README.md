@@ -109,4 +109,5 @@ contact: <kongj@tcd.ie>
 ## Photo credits
 
 * *Warramaba*: Barry Kearney, Jacinta Kong
-* Lizards: Peter Soltys, Ross McGibbon
+* Lizards: Peter Soltys, Ross McGibbon, Steven Zozaya, Jannico Kelk, Nicholas Wu
+* Landscapes: Nicholas Wu
