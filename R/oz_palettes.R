@@ -30,15 +30,24 @@ oz_palettes <- list(
     ngadju = rbind(c("#3D2E27", "#BF6938", "#F3B65D", "#9D9C42", "#EBDECE", "#664D51"),c(1,2,3,4,5,6))
   ),
   lizards = list(
+    c.decresii = rbind(c("#DCA761","#C6C16D", "#8B9C94", "#628CA5", "#5A6C7A", "#514F5C"),c(1,2,3,4,5,6)),
+    c.kingii = rbind(c("#E38A22", "#939114", "#F0E6C6", "#6E5A16", "#DECB21"),c(1,2,3,4,5)),
+    e.leuraensis = rbind(c("#e2b745", "#e3bb88", "#988e42", "#4e3d1d", "#1b1702"),c(1,2,3,4,5)),
+    i.lesueurii = rbind(c("#5A2D27", "#888238", "#BCD7EA", "#6D7F7F", "#172530"),c(1,2,3,4,5)),
+    l.boydii = rbind(c("#2A1805", "#122B08", "#D7D38C", "#4B5012", "#95C247"),c(1,2,3,4,5)),
     m.horridus = rbind(c("#6F2305", "#D29155", "#975428", "#477298", "#224263"),c(1,2,3,4,5)),
+    m.horridus2 = rbind(c("#DCA25D", "#E8C999", "#6C3921", "#26130E", "#C29153"),c(1,2,3,4,5)),
     t.nigrolutea = rbind(c("#FFDAA0", "#B29952", "#A38847", "#F9A338", "#867673", "#0F120F"),c(1,2,3,4,5,6)),
-    e.leuraensis = rbind(c("#e2b745", "#e3bb88","#988e42", "#4e3d1d", "#1b1702"),c(1,2,3,4,5)),
-    c.decresii = rbind(c("#DCA761","#C6C16D", "#8B9C94", "#628CA5", "#5A6C7A", "#514F5C"),c(1,2,3,4,5,6))
+    v.acanthurus = rbind(c("##78A47","#F3D6AD", "#BC6D38", "#45271D", "#7B4930"),c(1,2,3,4,5)),
+    V.pilbarensis = rbind(c("#EDAA6A","#41230E", "#B0612D", "#743F1C", "#120906"),c(1,2,3,4,5))
   ),
-  landscapes = list(),
+  landscapes = list(
+    uluru = rbind(c("#543813","#E4733B", "#D9842A", "#DAB77F", "#CFE0D8", "#9CC3E0", "#5981BC"),c(1,2,3,4,5,6,7))
+  ),
   birds = list(),
   frogs = list()
 )
+
 
 
 
