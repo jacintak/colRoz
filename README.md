@@ -1,5 +1,5 @@
 [![HitCount](http://hits.dwyl.io/jacintak/colRoz.svg)](http://hits.dwyl.io/jacintak/colRoz)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/jacintak/colRoz)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/jacintak/colRoz/issues)
 
 
 # colRoz - A wildlife colour palette from the land down under
@@ -100,7 +100,9 @@ print_palette(colRoz_pal("c.decresii"))
 
 [Nicholas Wu](https://github.com/nicholaswunz) designed the other palettes and the logo.
 
-contact: <kongj@tcd.ie>
+Contact J. Kong: <kongj@tcd.ie>
+
+Contact N. Wu: <nicholas.wu.nz@gmail.com>
 
 **Twitter**   
 [jacintakong](https://twitter.com/jacintakong)   
