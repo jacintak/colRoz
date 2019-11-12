@@ -39,7 +39,7 @@ oz_palettes <- list(
     m.horridus2 = rbind(c("#DCA25D", "#E8C999", "#6C3921", "#26130E", "#C29153"),c(1,2,3,4,5)),
     t.nigrolutea = rbind(c("#FFDAA0", "#B29952", "#A38847", "#F9A338", "#867673", "#0F120F"),c(1,2,3,4,5,6)),
     v.acanthurus = rbind(c("##78A47","#F3D6AD", "#BC6D38", "#45271D", "#7B4930"),c(1,2,3,4,5)),
-    V.pilbarensis = rbind(c("#EDAA6A","#41230E", "#B0612D", "#743F1C", "#120906"),c(1,2,3,4,5))
+    v.pilbarensis = rbind(c("#EDAA6A","#41230E", "#B0612D", "#743F1C", "#120906"),c(1,2,3,4,5))
   ),
   landscapes = list(
     uluru = rbind(c("#543813","#E4733B", "#D9842A", "#DAB77F", "#CFE0D8", "#9CC3E0", "#5981BC"),c(1,2,3,4,5,6,7))
