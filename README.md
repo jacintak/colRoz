@@ -11,19 +11,19 @@ Themed colour packages are all the rage. So Nicholas asked Jacinta to make him a
 
 # Palettes
 
-## *Warramaba*
+### *Warramaba*
 These are palettes based on the colours of matchstick grasshoppers in the genus *Warramaba*. You can read more about matchstick grasshoppers on [Jacinta's website](https://jacintakongresearch.wordpress.com/matchstick-grasshoppers/).
 
-## Lizards
+### Lizards
 These are palettes based on some of Australias favourite native lizards.
 
-## Landscapes
+### Landscapes
 These are palettes based on famous Asutralian landscapes
 
-## Birds
+### Birds
 To be added
 
-## Frogs
+### Frogs
 To be added
 
 ***
