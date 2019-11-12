@@ -15,10 +15,10 @@ Themed colour packages are all the rage. So Nicholas asked Jacinta to make him a
 These are palettes based on the colours of matchstick grasshoppers in the genus *Warramaba*. You can read more about matchstick grasshoppers on [Jacinta's website](https://jacintakongresearch.wordpress.com/matchstick-grasshoppers/).
 
 ## Lizards
-These are palettes based on some of the native Australian lizards.
+These are palettes based on some of Australias favourite native lizards.
 
 ## Landscapes
-To be added
+These are palettes based on famous Asutralian landscapes
 
 ## Birds
 To be added
@@ -109,5 +109,5 @@ contact: <kongj@tcd.ie>
 ## Photo credits
 
 * *Warramaba*: Barry Kearney, Jacinta Kong
-* Lizards: Peter Soltys, Ross McGibbon, Steven Zozaya, Jannico Kelk, Nicholas Wu
+* Lizards: Jannico Kelk, Ross McGibbon, Peter Soltys, Nicholas Wu, Steven Zozaya
 * Landscapes: Nicholas Wu
