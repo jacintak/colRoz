@@ -18,7 +18,7 @@ These are palettes based on the colours of matchstick grasshoppers in the genus 
 These are palettes based on some of Australias favourite native lizards.
 
 ### Landscapes
-These are palettes based on famous Asutralian landscapes
+These are palettes based on famous Australian landscapes
 
 ### Birds
 To be added
