@@ -1,3 +1,8 @@
+# colRoz 0.1.2
+13 Nov 2019
+
+* JK: added more landscape palettes and snake palette theme
+
 # colRoz 0.1.1
 JK 11 Nov 2019
 

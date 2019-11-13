@@ -26,6 +26,15 @@ To be added
 ### Frogs
 To be added
 
+### Snakes
+To be added
+
+### Plants
+To be added
+
+### Inverts
+To be added
+
 ***
 
 # Contributing
