@@ -62,7 +62,7 @@ There are binary releases if you'd prefer but for the development version:
 
 ```
 install.packages("devtools")
-devtools::install_github("jacintak/colRoz")
+devtools::install_github("jacintak/colRoz",  build_vignettes = TRUE)
 ```
 
 # Usage

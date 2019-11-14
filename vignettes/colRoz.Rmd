@@ -24,7 +24,7 @@ knitr::opts_chunk$set(
 ```
 
 <center>
-![](../images/colRoz_logo.png){height=200}
+![](../images/colRoz_logo_v2.png){height=200}
 </center>
 
 # Introduction

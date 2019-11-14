@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Jacinta Kong" />
+<meta name="author" content="kongj@tcd.ie" />
+
+<meta name="date" content="2019-11-14" />
+
+<title>Introduction to colRoz</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="C:\Users\kongj\ONEDRI~1.COM\JACINT~1.IO\styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 66px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h2 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h3 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h4 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h5 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h6 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Jacinta's GitHub</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Mechanistic models of ectotherm development
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://jacintak.github.io/model-about.html">About</a>
+    </li>
+    <li>
+      <a href="https://jacintak.github.io/model-pipeline.html">Pipeline</a>
+    </li>
+    <li>
+      <a href="https://jacintak.github.io/model-resources.html">Resources</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Teaching intro statistics
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://jacintak.github.io/biostats/r-exams-guide.html">Quick guide to R/exams</a>
+    </li>
+    <li>
+      <a href="https://jacintak.github.io/biostats/biostats-GLM1.html">Lecture 1: Simple linear models</a>
+    </li>
+    <li>
+      <a href="https://jacintak.github.io/biostats/biostats-GLM2.html">Lecture 2: Multiple regression</a>
+    </li>
+    <li>
+      <a href="https://jacintak.github.io/biostats/biostats-GLM3.html">Lecture 3: Evaluating models</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="index.html">colRoz</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Introduction to colRoz</h1>
+<h3 class="subtitle"><div class="line-block"><a href="https://jacintak.github.io/index.html">Back to jacintak.github.io</a></div></h3>
+<h4 class="author">Jacinta Kong</h4>
+<h4 class="author"><a href="mailto:kongj@tcd.ie" class="email">kongj@tcd.ie</a></h4>
+<h4 class="date">14 Nov 2019</h4>
+
+</div>
+
+
+<p><img src="images/colRoz_logo_v2.png" height="200" /></p>
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p><code>colRoz</code> is a themed colour palette package by Jacinta Kong &amp; Nicholas Wu. The palettes are based on the colour schemes of Australia. See README for details.</p>
+<p>There are two functions of <code>colRoz</code>:</p>
+<ol style="list-style-type: decimal">
+<li>Generate a palette of discrete colours of a specified number</li>
+<li>Generate a gradient continuous colours of a specified number</li>
+</ol>
+<p>For this, there are three functions described below. Before that, let’s set up this vignette.</p>
+<pre class="r"><code>library(colRoz)
+library(ggplot2)</code></pre>
+<hr />
+</div>
+<div id="list-of-palettes" class="section level1">
+<h1>1. List of palettes</h1>
+<p>The <code>oz_palettes</code> function contains the list of palettes available. Individual palettes are gouped by theme in a list. The <code>oz_palettes</code> variable is a list of these collated lists.</p>
+<pre class="r"><code>names(oz_palettes) # See all palette themes
+#&gt; [1] &quot;warramaba&quot;  &quot;lizards&quot;    &quot;landscapes&quot; &quot;birds&quot;      &quot;frogs&quot;     
+#&gt; [6] &quot;snakes&quot;
+names(oz_palettes$lizards) # See all lizard palettes
+#&gt;  [1] &quot;c.decresii&quot;    &quot;c.kingii&quot;      &quot;e.leuraensis&quot;  &quot;i.lesueurii&quot;  
+#&gt;  [5] &quot;l.boydii&quot;      &quot;m.horridus&quot;    &quot;m.horridus2&quot;   &quot;t.nigrolutea&quot; 
+#&gt;  [9] &quot;v.acanthurus&quot;  &quot;v.pilbarensis&quot; &quot;n.levis&quot;       &quot;s.spinigerus&quot;</code></pre>
+<p>We can call a specific list using subsetting rules for lists.</p>
+<pre class="r"><code>oz_palettes[[&quot;warramaba&quot;]][[&quot;whitei&quot;]] # Subset the palette for Warramaba whitei, format: [[theme list]][[palette list]]
+#&gt;      [,1]      [,2]      [,3]      [,4]      [,5]      [,6]     
+#&gt; [1,] &quot;#E5A430&quot; &quot;#9C7210&quot; &quot;#D7A8B8&quot; &quot;#BAB24F&quot; &quot;#392821&quot; &quot;#9B391B&quot;
+#&gt; [2,] &quot;1&quot;       &quot;2&quot;       &quot;3&quot;       &quot;4&quot;       &quot;5&quot;       &quot;6&quot;
+oz_palettes$warramaba$whitei # does the same as above but using list names
+#&gt;      [,1]      [,2]      [,3]      [,4]      [,5]      [,6]     
+#&gt; [1,] &quot;#E5A430&quot; &quot;#9C7210&quot; &quot;#D7A8B8&quot; &quot;#BAB24F&quot; &quot;#392821&quot; &quot;#9B391B&quot;
+#&gt; [2,] &quot;1&quot;       &quot;2&quot;       &quot;3&quot;       &quot;4&quot;       &quot;5&quot;       &quot;6&quot;</code></pre>
+<div id="understanding-the-structure-of-the-palette" class="section level2">
+<h2>Understanding the structure of the palette</h2>
+<p>Lists within lists may seem daunting but you’d rarely need to access the palettes individually. It is also easy enough to add your own palettes if you are comfortable with manually editing package functions in R.</p>
+<p>The general structure for a set of palettes is:</p>
+<pre><code>palette &lt;- list(
+pal1 = rbind(c(&lt;hex codes&gt;), c(&lt;order of discrete colours&gt;))
+)</code></pre>
+<p>Two things to note:</p>
+<ul>
+<li>The hex codes are stored as a vector in the first row of the list</li>
+<li>The second row of the list is a vector of the order colours are used when plotting discrete colours</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="defining-and-using-a-palette" class="section level1">
+<h1>2. Defining and using a palette</h1>
+<p>The palettes in this package are set as above. The main function is the palette generator. It acts as a housekeeping function to allow R to interpret the desired palette for plotting. The behaviour of this function depends on whether a discrete or continuous palette is desired and the number of colours requested.</p>
+<p>If a discrete palette of 3 colours is desired, then the function will chose the subset of 3 colours to be included from the full option of colours in a palette. The chosen order of these colours is hard coded in the list of palette.</p>
+<blockquote>
+<p><strong>Note</strong> there is no need to tell <code>colRoz</code> what theme the palette you want is in. Type in the palette name and <code>colRoz</code> will search the entire <code>oz_palette</code> list</p>
+</blockquote>
+<pre class="r"><code>pal &lt;- colRoz_pal(name = &quot;ngadju&quot;, n = 3, type = &quot;discrete&quot;)
+# a palette of only 3 colours
+
+ggplot(iris, aes(Petal.Width, Petal.Length , colour=Species)) +
+geom_point() +
+scale_colour_manual(values = pal) +
+theme_classic()</code></pre>
+<p><img src="index_files/figure-html/discrete%20graph-1.png" width="672" /></p>
+<p>If a continuous palette is desired, then the function will use the function colorRampPalette in the grDevices package (included in R) to generate a gradient of colours between the first and last colour in the desired palette.</p>
+<p><code>"continuous"</code> palettes are generated by default if the <code>type</code> argument is left blank. In <code>ggplot2</code>, use the function <code>scale_colour_gradientn</code> to set the continuous scale.</p>
+<pre class="r"><code>pal &lt;- colRoz_pal(name = &quot;ngadju&quot;, n = 50, type = &quot;continuous&quot;)
+
+ggplot(iris, aes(Petal.Width, Sepal.Length , colour=Petal.Length)) +
+geom_point() +
+scale_colour_gradientn(colours = pal) +
+theme_classic()</code></pre>
+<p><img src="index_files/figure-html/continuous%20graph-1.png" width="672" /></p>
+<hr />
+</div>
+<div id="visualise-a-palette" class="section level1">
+<h1>3. Visualise a palette</h1>
+<p>The function to plot the palette is only for graphing. Information is taken about the number of colours to plot from the desired palette and the palette is plotted. The name of the palette is shown.</p>
+<pre class="r"><code>print_palette(colRoz_pal(&quot;c.decresii&quot;)) # if empty, all colours are shown</code></pre>
+<p><img src="index_files/figure-html/print%20pal-1.png" width="672" /></p>
+<pre class="r"><code>print_palette(colRoz_pal(&quot;c.decresii&quot;, n = 4))</code></pre>
+<p><img src="index_files/figure-html/print%20pal-2.png" width="672" /></p>
+<pre class="r"><code>print_palette(colRoz_pal(&quot;c.decresii&quot;, type = &quot;continuous&quot;, n = 30))</code></pre>
+<p><img src="index_files/figure-html/print%20pal-3.png" width="672" /></p>
+</div>
+
+<footer>
+	    		<ul>
+	    		    <li><a href="https://jacintakongresearch.wordpress.com">Jacinta D. Kong</a></li>
+	        		<li><a href="mailto:kongj@tcd.ie">email</a></li>
+	        		<li><a href="https://github.com/jacintak">github.com/jacintak</a></li>
+				</ul>
+</footer>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
