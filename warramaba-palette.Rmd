@@ -1,0 +1,52 @@
+---
+title: "Warramaba palette"
+author:
+ - Jacinta Kong
+date: "`r format.Date(Sys.Date(), format = '%d %b %Y')`"
+output: 
+  html_document:
+    toc: true # table of contents
+    toc_float: true
+    theme: readable
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  echo = TRUE
+)
+```
+
+![](images/colRoz_logo_v2.png){height=200}
+
+
+
+# The *Warramaba* palettes
+These are palettes based on the colours of matchstick grasshoppers in the genus *Warramaba*. You can read more about matchstick grasshoppers on [Jacinta's website](https://jacintakongresearch.wordpress.com/matchstick-grasshoppers/).
+
+The `oz_palettes` function contains the list of palettes available. Individual palettes are gouped by theme in a list. The `oz_palettes` variable is a list of these collated lists.
+
+```{r ozpla}
+names(oz_palettes) # See all palette themes
+names(oz_palettes$warramaba) # See all lizard palettes
+```
+
+We can call a specific list using subsetting rules for lists.
+
+```{r pal subset}
+oz_palettes[["warramaba"]][["whitei"]] # Subset the palette for Warramaba whitei, format: [[theme list]][[palette list]]
+oz_palettes$warramaba$whitei # does the same as above but using list names
+```
+
+
+# The palettes
+```{r palettes print, echo=FALSE}
+library(colRoz)
+for (j in 1:length(oz_palettes[["warramaba"]])){
+    if(!is.null(names(oz_palettes[["warramaba"]]))){
+    print_palette(colRoz_pal(names(oz_palettes[["warramaba"]])[j]))
+    }
+}
+```
+

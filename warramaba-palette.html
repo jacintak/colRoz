@@ -14,7 +14,7 @@
 
 <meta name="date" content="2019-11-14" />
 
-<title>Introduction to colRoz</title>
+<title>Warramaba palette</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -413,7 +413,7 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Introduction to colRoz</h1>
+<h1 class="title toc-ignore">Warramaba palette</h1>
 <h4 class="author">Jacinta Kong</h4>
 <h4 class="date">14 Nov 2019</h4>
 
@@ -421,26 +421,15 @@ div.tocify {
 
 
 <p><img src="images/colRoz_logo_v2.png" height="200" /></p>
-<div id="introduction" class="section level1">
-<h1>Introduction</h1>
-<p><code>colRoz</code> is a themed colour palette package by Jacinta Kong &amp; Nicholas Wu. The palettes are based on the colour schemes of Australia. See README for details.</p>
-<p>There are two functions of <code>colRoz</code>:</p>
-<ol style="list-style-type: decimal">
-<li>Generate a palette of discrete colours of a specified number</li>
-<li>Generate a gradient continuous colours of a specified number</li>
-</ol>
-<p>For this, there are three functions described below. Before that, let’s set up this vignette.</p>
-<pre class="r"><code>library(colRoz)
-library(ggplot2)</code></pre>
-<hr />
-</div>
-<div id="list-of-palettes" class="section level1">
-<h1>1. List of palettes</h1>
+<div id="the-warramaba-palettes" class="section level1">
+<h1>The <em>Warramaba</em> palettes</h1>
+<p>These are palettes based on the colours of matchstick grasshoppers in the genus <em>Warramaba</em>. You can read more about matchstick grasshoppers on <a href="https://jacintakongresearch.wordpress.com/matchstick-grasshoppers/">Jacinta’s website</a>.</p>
 <p>The <code>oz_palettes</code> function contains the list of palettes available. Individual palettes are gouped by theme in a list. The <code>oz_palettes</code> variable is a list of these collated lists.</p>
 <pre class="r"><code>names(oz_palettes) # See all palette themes
 #&gt; [1] &quot;warramaba&quot;  &quot;lizards&quot;    &quot;landscapes&quot; &quot;birds&quot;      &quot;frogs&quot;
-names(oz_palettes$lizards) # See all lizard palettes
-#&gt; [1] &quot;m.horridus&quot;   &quot;t.nigrolutea&quot; &quot;e.leuraensis&quot; &quot;c.decresii&quot;</code></pre>
+names(oz_palettes$warramaba) # See all lizard palettes
+#&gt; [1] &quot;grandis&quot;      &quot;flavolineata&quot; &quot;whitei&quot;       &quot;picta&quot;       
+#&gt; [5] &quot;virgo&quot;        &quot;ngadju&quot;</code></pre>
 <p>We can call a specific list using subsetting rules for lists.</p>
 <pre class="r"><code>oz_palettes[[&quot;warramaba&quot;]][[&quot;whitei&quot;]] # Subset the palette for Warramaba whitei, format: [[theme list]][[palette list]]
 #&gt;      [,1]      [,2]      [,3]      [,4]      [,5]      [,6]     
@@ -450,56 +439,10 @@ oz_palettes$warramaba$whitei # does the same as above but using list names
 #&gt;      [,1]      [,2]      [,3]      [,4]      [,5]      [,6]     
 #&gt; [1,] &quot;#E5A430&quot; &quot;#9C7210&quot; &quot;#D7A8B8&quot; &quot;#BAB24F&quot; &quot;#392821&quot; &quot;#9B391B&quot;
 #&gt; [2,] &quot;1&quot;       &quot;2&quot;       &quot;3&quot;       &quot;4&quot;       &quot;5&quot;       &quot;6&quot;</code></pre>
-<div id="understanding-the-structure-of-the-palette" class="section level2">
-<h2>Understanding the structure of the palette</h2>
-<p>Lists within lists may seem daunting but you’d rarely need to access the palettes individually. It is also easy enough to add your own palettes if you are comfortable with manually editing package functions in R.</p>
-<p>The general structure for a set of palettes is:</p>
-<pre><code>palette &lt;- list(
-pal1 = rbind(c(&lt;hex codes&gt;), c(&lt;order of discrete colours&gt;))
-)</code></pre>
-<p>Two things to note:</p>
-<ul>
-<li>The hex codes are stored as a vector in the first row of the list</li>
-<li>The second row of the list is a vector of the order colours are used when plotting discrete colours</li>
-</ul>
-<hr />
 </div>
-</div>
-<div id="defining-and-using-a-palette" class="section level1">
-<h1>2. Defining and using a palette</h1>
-<p>The palettes in this package are set as above. The main function is the palette generator. It acts as a housekeeping function to allow R to interpret the desired palette for plotting. The behaviour of this function depends on whether a discrete or continuous palette is desired and the number of colours requested.</p>
-<p>If a discrete palette of 3 colours is desired, then the function will chose the subset of 3 colours to be included from the full option of colours in a palette. The chosen order of these colours is hard coded in the list of palette.</p>
-<blockquote>
-<p><strong>Note</strong> there is no need to tell <code>colRoz</code> what theme the palette you want is in. Type in the palette name and <code>colRoz</code> will search the entire <code>oz_palette</code> list</p>
-</blockquote>
-<pre class="r"><code>pal &lt;- colRoz_pal(name = &quot;ngadju&quot;, n = 3, type = &quot;discrete&quot;)
-# a palette of only 3 colours
-
-ggplot(iris, aes(Petal.Width, Petal.Length , colour=Species)) +
-geom_point() +
-scale_colour_manual(values = pal) +
-theme_classic()</code></pre>
-<p><img src="index_files/figure-html/discrete%20graph-1.png" width="672" /></p>
-<p>If a continuous palette is desired, then the function will use the function colorRampPalette in the grDevices package (included in R) to generate a gradient of colours between the first and last colour in the desired palette.</p>
-<p><code>"continuous"</code> palettes are generated by default if the <code>type</code> argument is left blank. In <code>ggplot2</code>, use the function <code>scale_colour_gradientn</code> to set the continuous scale.</p>
-<pre class="r"><code>pal &lt;- colRoz_pal(name = &quot;ngadju&quot;, n = 50, type = &quot;continuous&quot;)
-
-ggplot(iris, aes(Petal.Width, Sepal.Length , colour=Petal.Length)) +
-geom_point() +
-scale_colour_gradientn(colours = pal) +
-theme_classic()</code></pre>
-<p><img src="index_files/figure-html/continuous%20graph-1.png" width="672" /></p>
-<hr />
-</div>
-<div id="visualise-a-palette" class="section level1">
-<h1>3. Visualise a palette</h1>
-<p>The function to plot the palette is only for graphing. Information is taken about the number of colours to plot from the desired palette and the palette is plotted. The name of the palette is shown.</p>
-<pre class="r"><code>print_palette(colRoz_pal(&quot;c.decresii&quot;)) # if empty, all colours are shown</code></pre>
-<p><img src="index_files/figure-html/print%20pal-1.png" width="672" /></p>
-<pre class="r"><code>print_palette(colRoz_pal(&quot;c.decresii&quot;, n = 4))</code></pre>
-<p><img src="index_files/figure-html/print%20pal-2.png" width="672" /></p>
-<pre class="r"><code>print_palette(colRoz_pal(&quot;c.decresii&quot;, type = &quot;continuous&quot;, n = 30))</code></pre>
-<p><img src="index_files/figure-html/print%20pal-3.png" width="672" /></p>
+<div id="the-palettes" class="section level1">
+<h1>The palettes</h1>
+<p><img src="warramaba-palette_files/figure-html/palettes%20print-1.png" width="672" /><img src="warramaba-palette_files/figure-html/palettes%20print-2.png" width="672" /><img src="warramaba-palette_files/figure-html/palettes%20print-3.png" width="672" /><img src="warramaba-palette_files/figure-html/palettes%20print-4.png" width="672" /><img src="warramaba-palette_files/figure-html/palettes%20print-5.png" width="672" /><img src="warramaba-palette_files/figure-html/palettes%20print-6.png" width="672" /></p>
 </div>
 
 <footer>
