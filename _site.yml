@@ -1,7 +1,6 @@
 name: # name of the website
 output_dir: "." # output directory of rendered html file - "." is in source file (not a sub directory)
-include: ["index.Rmd"]
-exclude: ["*.md"]
+exclude: ["./NEWS.md *.md"]
 navbar:
   title: "Jacinta's GitHub"
   href: https://jacintak.github.io/index.html
