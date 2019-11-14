@@ -10,6 +10,7 @@
 Themed colour packages are all the rage. So Nicholas asked Jacinta to make him a colour package. These palettes are based on the colours of Australia which we can all agree is the most beautiful country in the world. If a kiwi can be convinced, then it must be so.
 
 # Palettes
+See the [colRoz webiste](https://jacintak.github.io/colRoz) for the full list of palettes.
 
 ### *Warramaba*
 These are palettes based on the colours of matchstick grasshoppers in the genus *Warramaba*. You can read more about matchstick grasshoppers on [Jacinta's website](https://jacintakongresearch.wordpress.com/matchstick-grasshoppers/).
