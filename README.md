@@ -21,8 +21,12 @@ These are palettes based on some of Australias favourite native lizards.
 ### Landscapes
 These are palettes based on famous Australian landscapes
 
+**Community contributors:** Jordan Iles, Nicholas Wu
+
 ### Birds
-To be added
+These are palettes based on some of Australias colourful native avians.
+
+**Community contributors:** Jessica McLachlan, Brenton von Takach
 
 ### Frogs
 To be added
@@ -31,10 +35,19 @@ To be added
 To be added
 
 ### Plants
-To be added
+These are palettes based on some of Australias underrated native flora.
+
+**Community contributors:** Emma Dalziell, Sarah Mulhall
 
 ### Inverts
-To be added
+These are palettes based on some of Australias tiny beauties.
+
+**Community contributors:** Craig White
+
+### Fish
+These are palettes based on some of Australias wet & wild.
+
+**Community contributors:** Brenton von Takach
 
 ***
 
