@@ -16,7 +16,7 @@ See the [colRoz website](https://jacintak.github.io/colRoz) for the full list of
 These are palettes based on the colours of matchstick grasshoppers in the genus *Warramaba*. You can read more about matchstick grasshoppers on [Jacinta's website](https://jacintakongresearch.wordpress.com/matchstick-grasshoppers/).
 
 ### Lizards
-These are palettes based on some of Australias favourite native lizards.
+These are palettes based on some of Australias favourite native scalys.
 
 ### Landscapes
 These are palettes based on famous Australian landscapes
