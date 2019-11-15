@@ -12,7 +12,7 @@
 
 <meta name="author" content="Jacinta Kong" />
 
-<meta name="date" content="2019-11-14" />
+<meta name="date" content="2019-11-15" />
 
 <title>Warramaba palette</title>
 
@@ -266,6 +266,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -415,22 +421,22 @@ div.tocify {
 
 <h1 class="title toc-ignore">Warramaba palette</h1>
 <h4 class="author">Jacinta Kong</h4>
-<h4 class="date">14 Nov 2019</h4>
+<h4 class="date">15 Nov 2019</h4>
 
 </div>
 
 
-<p><img src="images/colRoz_logo_v2.png" height="200" /></p>
-<div id="the-warramaba-palettes" class="section level1">
-<h1>The <em>Warramaba</em> palettes</h1>
+<center>
+<img src="images/colRoz_logo_v2.png" height="200" />
+</center>
+<div id="warramaba-grasshoppers" class="section level1">
+<h1><em>Warramaba</em> grasshoppers</h1>
 <p>These are palettes based on the colours of matchstick grasshoppers in the genus <em>Warramaba</em>. You can read more about matchstick grasshoppers on <a href="https://jacintakongresearch.wordpress.com/matchstick-grasshoppers/">Jacinta’s website</a>.</p>
-<p>The <code>oz_palettes</code> function contains the list of palettes available. Individual palettes are gouped by theme in a list. The <code>oz_palettes</code> variable is a list of these collated lists.</p>
-<pre class="r"><code>names(oz_palettes) # See all palette themes
-#&gt; [1] &quot;warramaba&quot;  &quot;lizards&quot;    &quot;landscapes&quot; &quot;birds&quot;      &quot;frogs&quot;
-names(oz_palettes$warramaba) # See all lizard palettes
+<p>The <code>oz_palettes</code> function contains the list of palettes available. Individual palettes are grouped by theme in a list. The <code>oz_palettes</code> variable is a list of these collated lists.</p>
+<pre class="r"><code>names(oz_palettes$warramaba) # See all Warramaba palettes names
 #&gt; [1] &quot;grandis&quot;      &quot;flavolineata&quot; &quot;whitei&quot;       &quot;picta&quot;       
 #&gt; [5] &quot;virgo&quot;        &quot;ngadju&quot;</code></pre>
-<p>We can call a specific list using subsetting rules for lists.</p>
+<p>We can call a specific list or palette using subsetting rules for lists.</p>
 <pre class="r"><code>oz_palettes[[&quot;warramaba&quot;]][[&quot;whitei&quot;]] # Subset the palette for Warramaba whitei, format: [[theme list]][[palette list]]
 #&gt;      [,1]      [,2]      [,3]      [,4]      [,5]      [,6]     
 #&gt; [1,] &quot;#E5A430&quot; &quot;#9C7210&quot; &quot;#D7A8B8&quot; &quot;#BAB24F&quot; &quot;#392821&quot; &quot;#9B391B&quot;

@@ -12,7 +12,7 @@
 
 <meta name="author" content="Jacinta Kong" />
 
-<meta name="date" content="2019-11-14" />
+<meta name="date" content="2019-11-15" />
 
 <title>Introduction to colRoz</title>
 
@@ -266,6 +266,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -415,12 +421,14 @@ div.tocify {
 
 <h1 class="title toc-ignore">Introduction to colRoz</h1>
 <h4 class="author">Jacinta Kong</h4>
-<h4 class="date">14 Nov 2019</h4>
+<h4 class="date">15 Nov 2019</h4>
 
 </div>
 
 
-<p><img src="images/colRoz_logo_v2.png" height="200" /></p>
+<center>
+<img src="images/colRoz_logo_v2.png" height="200" />
+</center>
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
 <p><code>colRoz</code> is a themed colour palette package by Jacinta Kong &amp; Nicholas Wu. The palettes are based on the colour schemes of Australia. See README for details.</p>
@@ -438,9 +446,12 @@ library(ggplot2)</code></pre>
 <h1>1. List of palettes</h1>
 <p>The <code>oz_palettes</code> function contains the list of palettes available. Individual palettes are gouped by theme in a list. The <code>oz_palettes</code> variable is a list of these collated lists.</p>
 <pre class="r"><code>names(oz_palettes) # See all palette themes
-#&gt; [1] &quot;warramaba&quot;  &quot;lizards&quot;    &quot;landscapes&quot; &quot;birds&quot;      &quot;frogs&quot;
+#&gt; [1] &quot;warramaba&quot;  &quot;lizards&quot;    &quot;landscapes&quot; &quot;birds&quot;      &quot;frogs&quot;     
+#&gt; [6] &quot;snakes&quot;
 names(oz_palettes$lizards) # See all lizard palettes
-#&gt; [1] &quot;m.horridus&quot;   &quot;t.nigrolutea&quot; &quot;e.leuraensis&quot; &quot;c.decresii&quot;</code></pre>
+#&gt;  [1] &quot;c.decresii&quot;    &quot;c.kingii&quot;      &quot;e.leuraensis&quot;  &quot;i.lesueurii&quot;  
+#&gt;  [5] &quot;l.boydii&quot;      &quot;m.horridus&quot;    &quot;m.horridus2&quot;   &quot;t.nigrolutea&quot; 
+#&gt;  [9] &quot;v.acanthurus&quot;  &quot;v.pilbarensis&quot; &quot;n.levis&quot;       &quot;s.spinigerus&quot;</code></pre>
 <p>We can call a specific list using subsetting rules for lists.</p>
 <pre class="r"><code>oz_palettes[[&quot;warramaba&quot;]][[&quot;whitei&quot;]] # Subset the palette for Warramaba whitei, format: [[theme list]][[palette list]]
 #&gt;      [,1]      [,2]      [,3]      [,4]      [,5]      [,6]     
