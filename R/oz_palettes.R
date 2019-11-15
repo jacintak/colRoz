@@ -54,7 +54,9 @@ oz_palettes <- list(
     daintree = rbind(c( "#020401","#0e1203","#101e07","#2a4613","#374e0a", "#7d8b3c"),c(1,2,3,4,5,6)),
     spinifex = rbind(c( "#10100e","#697573","#384a22", "#8d8b4e","#d6aa85", "#e4e6d1"),c(1,2,3,4,5,6))
   ),
-  birds = list(),
+  birds = list(
+    p.cincta = rbind(c("#CFC7C4","#75767A","#DCA074","#994B1E","#593C2A","#1B1110"), c(1,2,3,4,5,6))
+  ),
   frogs = list(),
   snakes = list(
     a.ramsayi = rbind(c("#17170b", "#422811","#5a3111","#a06322","#e9c74a" ,"#f5eacc"),c(1,2,3,4,5,6))
