@@ -30,18 +30,18 @@ oz_palettes <- list(
     ngadju = rbind(c("#3D2E27", "#BF6938", "#F3B65D", "#9D9C42", "#EBDECE", "#664D51"),c(1,2,3,4,5,6))
   ),
   lizards = list(
-    c.decresii = rbind(c("#DCA761","#C6C16D", "#8B9C94", "#628CA5", "#5A6C7A", "#514F5C"),c(1,2,3,4,5,6)),
-    c.kingii = rbind(c("#E38A22", "#939114", "#F0E6C6", "#6E5A16", "#DECB21"),c(1,2,3,4,5)),
-    e.leuraensis = rbind(c("#e2b745", "#e3bb88", "#988e42", "#4e3d1d", "#1b1702"),c(1,2,3,4,5)),
-    i.lesueurii = rbind(c("#5A2D27", "#888238", "#BCD7EA", "#6D7F7F", "#172530"),c(1,2,3,4,5)),
-    l.boydii = rbind(c("#2A1805", "#122B08", "#D7D38C", "#4B5012", "#95C247"),c(1,2,3,4,5)),
-    m.horridus = rbind(c("#6F2305", "#D29155", "#975428", "#477298", "#224263"),c(1,2,3,4,5)),
-    m.horridus2 = rbind(c("#DCA25D", "#E8C999", "#6C3921", "#26130E", "#C29153"),c(1,2,3,4,5)),
-    t.nigrolutea = rbind(c("#FFDAA0", "#B29952", "#A38847", "#F9A338", "#867673", "#0F120F"),c(1,2,3,4,5,6)),
-    v.acanthurus = rbind(c("#F1CFA2","#F8BC64", "#E68B47", "#BD6E39", "#4A2C22"),c(1,2,3,4,5)),
-    v.pilbarensis = rbind(c("#EDAA6A","#41230E", "#B0612D", "#743F1C", "#120906"),c(1,2,3,4,5)),
-    n.levis = rbind(c("#080808","#5e596f", "#9a7354", "#dca57e", "#f6fcd0", "#c5e4f6"),c(1,2,3,4,5,6)),
-    s.spinigerus = rbind(c("#18181a","#848178","#c6c7c2", "#815b37", "#e3c77c","#feff99"),c(1,2,3,4,5,6))
+    c.decresii = rbind(c("#DCA761","#C6C16D","#8B9C94","#628CA5","#5A6C7A", "#514F5C"),c(1,2,3,4,5,6)),
+    c.kingii = rbind(c("#E38A22","#939114","#F0E6C6","#6E5A16","#DECB21"),c(1,2,3,4,5)),
+    e.leuraensis = rbind(c("#e2b745","#e3bb88","#988e42","#4e3d1d", "#1b1702"),c(1,2,3,4,5)),
+    i.lesueurii = rbind(c("#5A2D27","#888238","#BCD7EA","#6D7F7F","#172530"),c(1,2,3,4,5)),
+    l.boydii = rbind(c("#2A1805","#122B08","#D7D38C","#4B5012","#95C247"),c(1,2,3,4,5)),
+    m.horridus = rbind(c("#6F2305","#D29155","#975428","#477298","#224263"),c(1,2,3,4,5)),
+    m.horridus2 = rbind(c("#DCA25D","#E8C999","#6C3921","#26130E","#C29153"),c(1,2,3,4,5)),
+    t.nigrolutea = rbind(c("#FFDAA0","#B29952","#A38847","#F9A338","#867673", "#0F120F"),c(1,2,3,4,5,6)),
+    v.acanthurus = rbind(c("#F1CFA2","#F8BC64", "#E68B47","#BD6E39","#4A2C22"),c(1,2,3,4,5)),
+    v.pilbarensis = rbind(c("#EDAA6A","#41230E","#B0612D","#743F1C","#120906"),c(1,2,3,4,5)),
+    n.levis = rbind(c("#080808","#5e596f", "#9a7354", "#dca57e","#f6fcd0","#c5e4f6"),c(1,2,3,4,5,6)),
+    s.spinigerus = rbind(c("#18181a","#848178","#c6c7c2","#815b37", "#e3c77c","#feff99"),c(1,2,3,4,5,6))
   ),
   landscapes = list(
     uluru = rbind(c("#543813","#E4733B","#D9842A","#DAB77F","#CFE0D8","#9CC3E0","#5981BC"), c(1,2,3,4,5,6,7)),
@@ -53,7 +53,8 @@ oz_palettes <- list(
     salt_lake = rbind(c("#1b396d", "#3e88b9","#34362b","#b6bfbe","#5d3f27","#c7b29d"), c(1,2,3,4,5,6)),
     daintree = rbind(c("#020401","#0e1203","#101e07","#2a4613","#374e0a","#7d8b3c"), c(1,2,3,4,5,6)),
     spinifex = rbind(c("#10100e","#697573","#384a22", "#8d8b4e","#d6aa85","#e4e6d1"), c(1,2,3,4,5,6)),
-    nq.stream = rbind(c("#808314","#DCDB43","#C5DFF4","#323526","#534C2E"),c(1,2,3,4,5))
+    nq.stream = rbind(c("#808314","#DCDB43","#C5DFF4","#323526","#534C2E"),c(1,2,3,4,5)),
+    kimberley = rbind(c("#322419","#291A17","#534546","#D3CCC8","#8F7772"), c(1,2,3,4,5))
   ),
   birds = list(
     p.cincta = rbind(c("#CFC7C4","#75767A","#DCA074","#994B1E","#593C2A","#1B1110"), c(1,2,3,4,5,6)),
