@@ -30,6 +30,8 @@ navbar:
          href: index.html
        - text: "Warramaba palette"
          href: warramaba-palette.html
+       - text: "Landscapes palette"
+         href: landscapes-palette.html
 output:
   html_document:
     toc: true # table of contents

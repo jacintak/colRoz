@@ -399,6 +399,9 @@ div.tocify {
     <li>
       <a href="warramaba-palette.html">Warramaba palette</a>
     </li>
+    <li>
+      <a href="landscapes-palette.html">Landscapes palette</a>
+    </li>
   </ul>
 </li>
       </ul>
@@ -425,23 +428,27 @@ div.tocify {
 </center>
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
-<p><code>colRoz</code> is a themed colour palette package by Jacinta Kong &amp; Nicholas Wu. The palettes are based on the colour schemes of Australia. See README for details.</p>
-<p>There are two functions of <code>colRoz</code>:</p>
+<p><code>colRoz</code> is a themed colour palette package by Jacinta Kong &amp; Nicholas Wu. The palettes are based on the colour schemes of Australia.</p>
+<p><code>colRoz</code> can:</p>
 <ol style="list-style-type: decimal">
 <li>Generate a palette of discrete colours of a specified number</li>
 <li>Generate a gradient continuous colours of a specified number</li>
 </ol>
-<p>For this, there are three functions described below. Before that, let’s set up this vignette.</p>
+<p>For this, there are three functions described below. Before that, let’s set up this introduction.</p>
+</div>
+<div id="installation" class="section level1">
+<h1>Installation</h1>
+<pre><code>devtools::install_github(&quot;jacintak/colRoz&quot;)</code></pre>
 <pre class="r"><code>library(colRoz)
 library(ggplot2)</code></pre>
-<hr />
+<p><code>colRoz</code> works with base R and <code>ggplot2</code> because it is a palette generator and doesn’t have a built in <code>ggplot</code> palette function. ***</p>
 </div>
 <div id="list-of-palettes" class="section level1">
 <h1>1. List of palettes</h1>
 <p>The <code>oz_palettes</code> function contains the list of palettes available. Individual palettes are gouped by theme in a list. The <code>oz_palettes</code> variable is a list of these collated lists.</p>
 <pre class="r"><code>names(oz_palettes) # See all palette themes
 #&gt; [1] &quot;warramaba&quot;  &quot;lizards&quot;    &quot;landscapes&quot; &quot;birds&quot;      &quot;frogs&quot;     
-#&gt; [6] &quot;snakes&quot;     &quot;plant&quot;      &quot;fish&quot;       &quot;inverts&quot;
+#&gt; [6] &quot;snakes&quot;     &quot;plants&quot;     &quot;fish&quot;       &quot;inverts&quot;
 names(oz_palettes$lizards) # See all lizard palettes
 #&gt;  [1] &quot;c.decresii&quot;    &quot;c.kingii&quot;      &quot;e.leuraensis&quot;  &quot;i.lesueurii&quot;  
 #&gt;  [5] &quot;l.boydii&quot;      &quot;m.horridus&quot;    &quot;m.horridus2&quot;   &quot;t.nigrolutea&quot; 
@@ -458,6 +465,7 @@ oz_palettes$warramaba$whitei # does the same as above but using list names
 <div id="understanding-the-structure-of-the-palette" class="section level2">
 <h2>Understanding the structure of the palette</h2>
 <p>Lists within lists may seem daunting but you’d rarely need to access the palettes individually. It is also easy enough to add your own palettes if you are comfortable with manually editing package functions in R.</p>
+<p>We are happy to accept community contributions. Adding pre-chosen hex codes is easy to do. It may take longer to make a palette if we need to chose hex colours from an image.</p>
 <p>The general structure for a set of palettes is:</p>
 <pre><code>palette &lt;- list(
 pal1 = rbind(c(&lt;hex codes&gt;), c(&lt;order of discrete colours&gt;))

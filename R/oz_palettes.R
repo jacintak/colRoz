@@ -6,7 +6,10 @@
 #'   \code{lizards}: palettes for Australian lizards,
 #'   \code{landscape}: palettes for Australian landscapes,
 #'   \code{birds}: palettes for Australian birds,
-#'   \code{frogs}: palettes for Australian frogs
+#'   \code{frogs}: palettes for Australian frogs,
+#'   \code{plants}: palettes for Australian plants,
+#'   \code{fish}: palettes for Australian fish,
+#'   \code{inverts}: palettes for Australian invertebrates
 #'
 #' @return A vector of colours.
 #' @export
@@ -53,7 +56,7 @@ oz_palettes <- list(
     salt_lake = rbind(c("#1b396d", "#3e88b9","#34362b","#b6bfbe","#5d3f27","#c7b29d"), c(1,2,3,4,5,6)),
     daintree = rbind(c("#020401","#0e1203","#101e07","#2a4613","#374e0a","#7d8b3c"), c(1,2,3,4,5,6)),
     spinifex = rbind(c("#10100e","#697573","#384a22", "#8d8b4e","#d6aa85","#e4e6d1"), c(1,2,3,4,5,6)),
-    nq.stream = rbind(c("#808314","#DCDB43","#C5DFF4","#323526","#534C2E"),c(1,2,3,4,5)),
+    nq_stream = rbind(c("#808314","#DCDB43","#C5DFF4","#323526","#534C2E"),c(1,2,3,4,5)),
     kimberley = rbind(c("#322419","#291A17","#534546","#D3CCC8","#8F7772"), c(1,2,3,4,5))
   ),
   birds = list(
@@ -65,7 +68,7 @@ oz_palettes <- list(
   snakes = list(
     a.ramsayi = rbind(c("#17170b", "#422811","#5a3111","#a06322","#e9c74a" ,"#f5eacc"),c(1,2,3,4,5,6))
   ),
-  plant = list(
+  plants = list(
     n.violacea = rbind(c("#301E48","#796D9D","#DDDAEF","#F9E011","#D9B523","#946D2A"), c(1,2,3,4,5,6)),
     xantho = rbind(c("#736F66","#1D1C1A","#2E3F13","#90A53E","#E1AF4C","#A36407"), c(1,2,3,4,5,6))
   ),

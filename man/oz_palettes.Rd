@@ -18,7 +18,10 @@ Choices of palettes are:
   \code{lizards}: palettes for Australian lizards,
   \code{landscape}: palettes for Australian landscapes,
   \code{birds}: palettes for Australian birds,
-  \code{frogs}: palettes for Australian frogs
+  \code{frogs}: palettes for Australian frogs,
+  \code{plants}: palettes for Australian plants,
+  \code{fish}: palettes for Australian fish,
+  \code{inverts}: palettes for Australian invertebrates
 }
 \examples{
 # Call themed sets of palettes
