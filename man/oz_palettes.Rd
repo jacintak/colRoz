@@ -4,7 +4,7 @@
 \name{oz_palettes}
 \alias{oz_palettes}
 \title{Palettes inspired by Australia}
-\format{An object of class \code{list} of length 5.}
+\format{An object of class \code{list} of length 9.}
 \usage{
 oz_palettes
 }

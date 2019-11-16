@@ -1,7 +1,7 @@
 Package: colRoz
 Type: Package
 Title: A colour palette for the land down under
-Date: 2019-11-09
+Date: 2019-11-18
 Version: 0.1.2
 Authors@R: as.person(c(
     "Jacinta Kong <kongj@tcd.ie> [aut, cre]", 
@@ -12,7 +12,7 @@ Description: Does what the title says.
 License: MIT + License
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/jacintak/colRoz
+URL: https://jacintak.github.io/colRoz
 Suggests:
     ggplot2,
     knitr,

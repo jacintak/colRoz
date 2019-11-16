@@ -2,13 +2,17 @@
 18 Nov 2019
 
 ## JK
+
 * Added more landscape palettes and snake palette theme
 * Made a github page and subpage
+
+## NW
+* Added Black Throated Finch palette and others
 
 # colRoz 0.1.1
 JK 11 Nov 2019
 
-* Now with logo
+* Now with logo by NW
 
 # colRoz 0.1.1
 JK 10 Nov 2019
