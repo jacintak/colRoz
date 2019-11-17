@@ -28,8 +28,24 @@ navbar:
       menu:
        - text: "Quick guide to colRoz"
          href: index.html
-       - text: "Warramaba palette"
+       - text: "Warramaba"
          href: warramaba-palette.html
+       - text: "Lizards"
+         href: lizards-palette.html
+       - text: "Landscapes"
+         href: landscapes-palette.html
+       - text: "Birds"
+         href: birds-palette.html
+       - text: "Frogs"
+         href: frogs-palette.html
+       - text: "Snakes"
+         href: snakes-palette.html
+       - text: "Plants"
+         href: plants-palette.html
+       - text: "Fish"
+         href: fish-palette.html
+       - text: "Inverts"
+         href: inverts-palette.html
 output:
   html_document:
     toc: true # table of contents

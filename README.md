@@ -16,10 +16,10 @@ See the [colRoz website](https://jacintak.github.io/colRoz) for the full list of
 These are palettes based on the colours of matchstick grasshoppers in the genus *Warramaba*. You can read more about matchstick grasshoppers on [Jacinta's website](https://jacintakongresearch.wordpress.com/matchstick-grasshoppers/).
 
 ### Lizards
-These are palettes based on some of Australias favourite native scalys.
+These are palettes based on some of Australia's favourite native scalys.
 
 ### Landscapes
-These are palettes based on famous Australian landscapes
+These are palettes based on iconic Australian landscapes.
 
 **Community contributors:** Jordan Iles, Nicholas Wu
 
@@ -40,12 +40,12 @@ These are palettes based on some of Australias underrated native flora.
 **Community contributors:** Emma Dalziell, Sarah Mulhall
 
 ### Inverts
-These are palettes based on some of Australias tiny beauties.
+These are palettes based on some of Australia's tiny beauties.
 
-**Community contributors:** Craig White
+**Community contributors:** Craig White, Kate Umbers
 
 ### Fish
-These are palettes based on some of Australias wet & wild.
+These are palettes based on some of Australia's wet & wild.
 
 **Community contributors:** Brenton von Takach
 
@@ -60,13 +60,13 @@ pal1 = rbind(c(<hex codes>), c(<order of discrete colours>))
 )
 ```
 
-Our palettes are about 6 hex codes long but they can be any number you want. Alternatively get in touch via email or the issues tab on GitHub. We may not have time to choose colours for a given theme but if you already decided on the colour scheme, it's easy to copy and paste the hex codes into the relevant function (& you get credit of course).
+Our palettes are about 6 hex codes long but they can be any number you want. Alternatively get in touch via email or the issues tab on GitHub. We may not have time to choose colours for a given theme but if you already decided on the colour scheme, it's easy to copy and paste the hex codes into the relevant function & you get credit of course.
 
 ***
 
 # News
 
-See [news.md](https://github.com/jacintak/colRoz/blob/master/NEWS.md) for latest updates
+See [news.md](https://github.com/jacintak/colRoz/blob/master/_NEWS.md) for latest updates
 
 ***
 
@@ -135,4 +135,4 @@ Contact N. Wu: <nicholas.wu.nz@gmail.com>
 
 * *Warramaba*: Barry Kearney, Jacinta Kong
 * Lizards: Jannico Kelk, Ross McGibbon, Peter Soltys, Nicholas Wu, Steven Zozaya
-* Landscapes: Nicholas Wu
+* Landscapes: Nicholas Wu, Jacinta Kong

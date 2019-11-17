@@ -3,7 +3,7 @@ title: "Introduction to colRoz"
 subtitle: "A colour palette from down under"
 author: 
  - Jacinta Kong
- - https://jacintak.github.io
+ - https://jacintak.github.io/colRoz
 date: "`r format.Date(Sys.Date(), format = '%d %b %Y')`" 
 output: rmarkdown::html_vignette
 toc: true # table of contents

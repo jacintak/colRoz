@@ -4,7 +4,7 @@
 \name{oz_palettes}
 \alias{oz_palettes}
 \title{Palettes inspired by Australia}
-\format{An object of class \code{list} of length 5.}
+\format{An object of class \code{list} of length 9.}
 \usage{
 oz_palettes
 }
@@ -16,9 +16,12 @@ Palettes stored in nested lists according to theme.
 Choices of palettes are:
   \code{warramaba}: palettes for matchstick grasshoppers (Warramaba),
   \code{lizards}: palettes for Australian lizards,
-  \code{landscape}: palettes for Australian landscapes,
+  \code{landscapes}: palettes for Australian landscapes,
   \code{birds}: palettes for Australian birds,
-  \code{frogs}: palettes for Australian frogs
+  \code{frogs}: palettes for Australian frogs,
+  \code{plants}: palettes for Australian plants,
+  \code{fish}: palettes for Australian fish,
+  \code{inverts}: palettes for Australian invertebrates
 }
 \examples{
 # Call themed sets of palettes

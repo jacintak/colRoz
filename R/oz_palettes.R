@@ -4,9 +4,12 @@
 #' Choices of palettes are:
 #'   \code{warramaba}: palettes for matchstick grasshoppers (Warramaba),
 #'   \code{lizards}: palettes for Australian lizards,
-#'   \code{landscape}: palettes for Australian landscapes,
+#'   \code{landscapes}: palettes for Australian landscapes,
 #'   \code{birds}: palettes for Australian birds,
-#'   \code{frogs}: palettes for Australian frogs
+#'   \code{frogs}: palettes for Australian frogs,
+#'   \code{plants}: palettes for Australian plants,
+#'   \code{fish}: palettes for Australian fish,
+#'   \code{inverts}: palettes for Australian invertebrates
 #'
 #' @return A vector of colours.
 #' @export
@@ -26,8 +29,8 @@ oz_palettes <- list(
     flavolineata = rbind(c("#573333","#E0C5BE","#FDD41A", "#D3AD64", "#7A5D55","#DE5C00"),c(1,2,3,4,5,6)),
     whitei = rbind(c("#E5A430", "#9C7210","#D7A8B8", "#BAB24F", "#392821", "#9B391B"),c(1,2,3,4,5,6)),
     picta = rbind(c("#EED4C5","#835D4A", "#D2A19A", "#F3AC5E", "#130B08", "#B77897"),c(1,2,3,4,5,6)),
-    virgo = rbind(c("#7E8E2C", "#372815",  "#5A5F9D", "#732405", "#FECA64", "#457D60"),c(1,2,3,4,5,6)),
-    ngadju = rbind(c("#3D2E27", "#BF6938", "#F3B65D", "#9D9C42", "#EBDECE", "#664D51"),c(1,2,3,4,5,6))
+    virgo = rbind(c("#7E8E2C", "#372815", "#5A5F9D", "#732405", "#FECA64", "#457D60"),c(1,2,3,4,5,6)),
+    ngadju = rbind(c("#3D2E27","#664D51", "#BF6938", "#F3B65D", "#9D9C42", "#EBDECE"),c(1,3,5,2,4,6))
   ),
   lizards = list(
     c.decresii = rbind(c("#DCA761","#C6C16D","#8B9C94","#628CA5","#5A6C7A", "#514F5C"),c(1,2,3,4,5,6)),
@@ -51,9 +54,9 @@ oz_palettes <- list(
     desert_dusk = rbind(c("#040605", "#0a183f","#1c407a","#a1a4b7","#f2bfa4","#ffd585"), c(1,2,3,4,5,6)),
     desert_flood = rbind(c("#552c10", "#865b48","#343611","#515530","#977f7d","#d3b696"), c(1,2,3,4,5,6)),
     salt_lake = rbind(c("#1b396d", "#3e88b9","#34362b","#b6bfbe","#5d3f27","#c7b29d"), c(1,2,3,4,5,6)),
-    daintree = rbind(c("#020401","#0e1203","#101e07","#2a4613","#374e0a","#7d8b3c"), c(1,2,3,4,5,6)),
+    daintree = rbind(c("#020401","#101e07","#2a4613","#374e0a","#7d8b3c"), c(1,2,3,4,5)),
     spinifex = rbind(c("#10100e","#697573","#384a22", "#8d8b4e","#d6aa85","#e4e6d1"), c(1,2,3,4,5,6)),
-    nq.stream = rbind(c("#808314","#DCDB43","#C5DFF4","#323526","#534C2E"),c(1,2,3,4,5)),
+    nq_stream = rbind(c("#808314","#DCDB43","#C5DFF4","#323526","#534C2E"),c(1,2,3,4,5)),
     kimberley = rbind(c("#322419","#291A17","#534546","#D3CCC8","#8F7772"), c(1,2,3,4,5))
   ),
   birds = list(
@@ -65,7 +68,7 @@ oz_palettes <- list(
   snakes = list(
     a.ramsayi = rbind(c("#17170b", "#422811","#5a3111","#a06322","#e9c74a" ,"#f5eacc"),c(1,2,3,4,5,6))
   ),
-  plant = list(
+  plants = list(
     n.violacea = rbind(c("#301E48","#796D9D","#DDDAEF","#F9E011","#D9B523","#946D2A"), c(1,2,3,4,5,6)),
     xantho = rbind(c("#736F66","#1D1C1A","#2E3F13","#90A53E","#E1AF4C","#A36407"), c(1,2,3,4,5,6))
   ),
@@ -73,7 +76,8 @@ oz_palettes <- list(
     r.aculeatus = rbind(c("#7B6E18","#24566D","#617764","#9DD2CB","#B3C29A","#BBCC64"), c(1,2,3,4,5,6))
   ),
   inverts = list(
-    p.mitchelli = rbind(c("#3F2723","#F4F4DA","#9B7B66","#DBF379","#4F6A35"), c(1,2,3,4,5))
+    p.mitchelli = rbind(c("#3F2723", "#F4F4DA","#9B7B66","#DBF379","#4F6A35"), c(1,2,3,4,5)),
+    k.tristis = rbind(c("#3D76A3", "#5EADBE","#5EA176", "#A76123", "#7A4018",  "#B48D48", "#767D76"), c(1,2,3,4,5,6,7))
   )
 )
 
