@@ -16,7 +16,7 @@ Palettes stored in nested lists according to theme.
 Choices of palettes are:
   \code{warramaba}: palettes for matchstick grasshoppers (Warramaba),
   \code{lizards}: palettes for Australian lizards,
-  \code{landscape}: palettes for Australian landscapes,
+  \code{landscapes}: palettes for Australian landscapes,
   \code{birds}: palettes for Australian birds,
   \code{frogs}: palettes for Australian frogs,
   \code{plants}: palettes for Australian plants,

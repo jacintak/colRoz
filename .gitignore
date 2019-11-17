@@ -5,7 +5,13 @@
 inst/doc
 doc
 Meta
-NEWS.html
 warramaba-palette.Rmd
 index.Rmd
 landscapes-palette.Rmd
+birds-palette.Rmd
+lizards-palette.Rmd
+fish-palette.Rmd
+plants-palette.Rmd
+inverts-palette.Rmd
+frogs-palette.Rmd
+snakes-palette.Rmd

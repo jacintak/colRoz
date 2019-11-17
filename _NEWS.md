@@ -2,7 +2,7 @@
 18 Nov 2019
 ## JK
 
-* Added more landscape palettes and snake palette theme
+* Added some landscape, snake and invert themes
 * Made a github page and subpages for palette themes
 
 ## NW

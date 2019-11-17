@@ -4,7 +4,7 @@
 #' Choices of palettes are:
 #'   \code{warramaba}: palettes for matchstick grasshoppers (Warramaba),
 #'   \code{lizards}: palettes for Australian lizards,
-#'   \code{landscape}: palettes for Australian landscapes,
+#'   \code{landscapes}: palettes for Australian landscapes,
 #'   \code{birds}: palettes for Australian birds,
 #'   \code{frogs}: palettes for Australian frogs,
 #'   \code{plants}: palettes for Australian plants,
@@ -54,7 +54,7 @@ oz_palettes <- list(
     desert_dusk = rbind(c("#040605", "#0a183f","#1c407a","#a1a4b7","#f2bfa4","#ffd585"), c(1,2,3,4,5,6)),
     desert_flood = rbind(c("#552c10", "#865b48","#343611","#515530","#977f7d","#d3b696"), c(1,2,3,4,5,6)),
     salt_lake = rbind(c("#1b396d", "#3e88b9","#34362b","#b6bfbe","#5d3f27","#c7b29d"), c(1,2,3,4,5,6)),
-    daintree = rbind(c("#020401","#0e1203","#101e07","#2a4613","#374e0a","#7d8b3c"), c(1,2,3,4,5,6)),
+    daintree = rbind(c("#020401","#101e07","#2a4613","#374e0a","#7d8b3c"), c(1,2,3,4,5)),
     spinifex = rbind(c("#10100e","#697573","#384a22", "#8d8b4e","#d6aa85","#e4e6d1"), c(1,2,3,4,5,6)),
     nq_stream = rbind(c("#808314","#DCDB43","#C5DFF4","#323526","#534C2E"),c(1,2,3,4,5)),
     kimberley = rbind(c("#322419","#291A17","#534546","#D3CCC8","#8F7772"), c(1,2,3,4,5))
@@ -76,7 +76,8 @@ oz_palettes <- list(
     r.aculeatus = rbind(c("#7B6E18","#24566D","#617764","#9DD2CB","#B3C29A","#BBCC64"), c(1,2,3,4,5,6))
   ),
   inverts = list(
-    p.mitchelli = rbind(c("#3F2723","#F4F4DA","#9B7B66","#DBF379","#4F6A35"), c(1,2,3,4,5))
+    p.mitchelli = rbind(c("#3F2723", "#F4F4DA","#9B7B66","#DBF379","#4F6A35"), c(1,2,3,4,5)),
+    k.tristis = rbind(c("#3D76A3", "#5EADBE","#5EA176", "#A76123", "#7A4018",  "#B48D48", "#767D76"), c(1,2,3,4,5,6,7))
   )
 )
 

@@ -42,7 +42,7 @@ These are palettes based on some of Australias underrated native flora.
 ### Inverts
 These are palettes based on some of Australia's tiny beauties.
 
-**Community contributors:** Craig White
+**Community contributors:** Craig White, Kate Umbers
 
 ### Fish
 These are palettes based on some of Australia's wet & wild.
@@ -66,7 +66,7 @@ Our palettes are about 6 hex codes long but they can be any number you want. Alt
 
 # News
 
-See [news.md](https://github.com/jacintak/colRoz/blob/master/NEWS.md) for latest updates
+See [news.md](https://github.com/jacintak/colRoz/blob/master/_NEWS.md) for latest updates
 
 ***
 
