@@ -29,8 +29,8 @@ oz_palettes <- list(
     flavolineata = rbind(c("#573333","#E0C5BE","#FDD41A", "#D3AD64", "#7A5D55","#DE5C00"),c(1,2,3,4,5,6)),
     whitei = rbind(c("#E5A430", "#9C7210","#D7A8B8", "#BAB24F", "#392821", "#9B391B"),c(1,2,3,4,5,6)),
     picta = rbind(c("#EED4C5","#835D4A", "#D2A19A", "#F3AC5E", "#130B08", "#B77897"),c(1,2,3,4,5,6)),
-    virgo = rbind(c("#7E8E2C", "#372815",  "#5A5F9D", "#732405", "#FECA64", "#457D60"),c(1,2,3,4,5,6)),
-    ngadju = rbind(c("#3D2E27", "#BF6938", "#F3B65D", "#9D9C42", "#EBDECE", "#664D51"),c(1,2,3,4,5,6))
+    virgo = rbind(c("#7E8E2C", "#372815", "#5A5F9D", "#732405", "#FECA64", "#457D60"),c(1,2,3,4,5,6)),
+    ngadju = rbind(c("#3D2E27","#664D51", "#BF6938", "#F3B65D", "#9D9C42", "#EBDECE"),c(1,3,5,2,4,6))
   ),
   lizards = list(
     c.decresii = rbind(c("#DCA761","#C6C16D","#8B9C94","#628CA5","#5A6C7A", "#514F5C"),c(1,2,3,4,5,6)),
