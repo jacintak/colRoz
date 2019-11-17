@@ -4,6 +4,7 @@
 
 * Added some landscape, snake and invert themes
 * Made a github page and subpages for palette themes
+* Fixed and added ability to use discrete colour combinations. Note paired colours are not functional.
 
 ## NW
 * Added Black Throated Finch palette and community contributed palettes
