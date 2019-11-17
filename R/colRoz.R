@@ -51,7 +51,7 @@ colRoz_pal <- function(name, n, type = c("discrete","continuous","paired")) {
 
   out <- switch(type,
                 continuous = grDevices::colorRampPalette(pal[1,])(n),
-                discrete = pal[1,][as.numeric(pal[2,1:n])],
+                discrete = pal[1,][order(pal[2,])][1:n],
                 paired = pal[1:n]
   )
 
