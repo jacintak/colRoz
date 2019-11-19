@@ -33,9 +33,9 @@ oz_palettes <- list(
     ngadju = rbind(c("#3D2E27","#664D51", "#BF6938", "#F3B65D", "#9D9C42", "#EBDECE"),c(4,5,1,2,3,6))
   ),
   lizards = list(
-    c.decresii = rbind(c("#DCA761","#C6C16D","#8B9C94","#628CA5","#5A6C7A", "#514F5C"),c(1,4,5,2,5,6)),
+    c.decresii = rbind(c("#DCA761","#C6C16D","#8B9C94","#628CA5","#5A6C7A", "#514F5C"),c(1,5,4,2,5,3)),
     c.kingii = rbind(c("#E38A22","#939114","#F0E6C6","#6E5A16","#DECB21"),c(1,2,5,3,4)),
-    e.leuraensis = rbind(c("#e2b745","#e3bb88","#988e42","#4e3d1d", "#1b1702"),c(3,6,1,2,5)),
+    e.leuraensis = rbind(c("#e2b745","#e3bb88","#988e42","#4e3d1d", "#1b1702"),c(3,5,1,2,4)),
     i.lesueurii = rbind(c("#5A2D27","#888238","#BCD7EA","#6D7F7F","#172530"),c(1,2,5,4,3)),
     l.boydii = rbind(c("#2A1805","#122B08","#D7D38C","#4B5012","#95C247"),c(5,1,2,4,3)),
     m.horridus = rbind(c("#6F2305","#D29155","#975428","#477298","#224263"),c(4,5,1,2,3)),
@@ -47,7 +47,7 @@ oz_palettes <- list(
     s.spinigerus = rbind(c("#18181a","#848178","#c6c7c2","#815b37", "#e3c77c","#feff99"),c(4,1,5,2,3,6))
   ),
   landscapes = list(
-    uluru = rbind(c("#543813","#E4733B","#D9842A","#DAB77F","#CFE0D8","#9CC3E0","#5981BC"), c(1,6,2,7,4,4,3)),
+    uluru = rbind(c("#543813","#E4733B","#D9842A","#DAB77F","#CFE0D8","#9CC3E0","#5981BC"), c(1,7,5,2,6,4,3)),
     shark_bay = rbind(c( "#11100b","#313534", "#353922","#274f68","#89b8c0","#e6ecea"), c(4,1,6,2,3,5)),
     sky = rbind(c( "#9dbfda","#6fa3dd", "#588ece","#336aaa","#295a9c","#1b4287"), c(4,1,5,2,6,3)),
     desert_sunset = rbind(c( "#626063", "#ad5e59","#fd7c45","#faba62","#ffffbb","#bbdadc"), c(5,1,2,3,6,4)),

@@ -1,4 +1,9 @@
 # colRoz 0.1.2
+
+19 Nov 2019
+
+* Fixed discrete palette order for c.decresii and uluru
+
 18 Nov 2019
 ## JK
 
