@@ -60,7 +60,7 @@ pal1 = rbind(c(<hex codes>), c(<order of discrete colours>))
 )
 ```
 
-Our palettes are about 6 hex codes long but they can be any number you want. Alternatively get in touch via email or the issues tab on GitHub. We may not have time to choose colours for a given theme but if you already decided on the colour scheme, it's easy to copy and paste the hex codes into the relevant function & you get credit of course.
+Palettes are stored in the R file `oz_palettes.R`. You can add individual palettes to the respective theme or make your own theme. Our palettes are about 6 hex codes long but they can be any number you want. Alternatively get in touch via email or the issues tab on GitHub. We may not have time to choose colours for a given theme but if you already decided on the colour scheme, it's easy to copy and paste the hex codes into the relevant line and you get credit, of course.
 
 ***
 
