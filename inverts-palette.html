@@ -12,7 +12,7 @@
 
 <meta name="author" content="Jacinta Kong" />
 
-<meta name="date" content="2019-11-19" />
+<meta name="date" content="2019-11-20" />
 
 <title>Inverts</title>
 
@@ -28,6 +28,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -266,6 +268,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -427,7 +435,12 @@ div.tocify {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/jacintak">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -439,7 +452,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Inverts</h1>
 <h4 class="author">Jacinta Kong</h4>
-<h4 class="date">19 Nov 2019</h4>
+<h4 class="date">20 Nov 2019</h4>
 
 </div>
 
@@ -461,9 +474,9 @@ div.tocify {
 
 <footer>
 	    		<ul>
-	    		    <li><a href="https://jacintakongresearch.wordpress.com">Jacinta D. Kong</a></li>
-	        		<li><a href="mailto:kongj@tcd.ie">email</a></li>
-	        		<li><a href="https://github.com/jacintak">github.com/jacintak</a></li>
+	    		    <li><i class="fas fa-home"></i><a href="https://jacintakongresearch.wordpress.com"> Jacinta D. Kong</a></li>
+	        		<li><a class="fas fa-envelope" href="mailto:kongj@tcd.ie"></a></li>
+	        		<li><a class="fab fa-twitter" href="https://twitter.com/jacintakong"></a></li>
 				</ul>
 </footer>
 

@@ -12,7 +12,7 @@
 
 <meta name="author" content="Jacinta Kong" />
 
-<meta name="date" content="2019-11-19" />
+<meta name="date" content="2019-11-20" />
 
 <title>Introduction to colRoz</title>
 
@@ -28,6 +28,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -266,6 +268,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -427,7 +435,12 @@ div.tocify {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/jacintak">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -439,7 +452,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Introduction to colRoz</h1>
 <h4 class="author">Jacinta Kong</h4>
-<h4 class="date">19 Nov 2019</h4>
+<h4 class="date">20 Nov 2019</h4>
 
 </div>
 
@@ -466,12 +479,12 @@ div.tocify {
 <h1>1. List of palettes</h1>
 <p>The <code>oz_palettes</code> function contains the list of palettes available. Individual palettes are gouped by theme in a list. The <code>oz_palettes</code> variable is a list of these collated lists.</p>
 <pre class="r"><code>names(oz_palettes) # See all palette themes
-[1] &quot;warramaba&quot;  &quot;lizards&quot;    &quot;landscapes&quot; &quot;birds&quot;      &quot;frogs&quot;     
-[6] &quot;snakes&quot;     &quot;plants&quot;     &quot;fish&quot;       &quot;inverts&quot;   
+[1] &quot;warramaba&quot;  &quot;lizards&quot;    &quot;landscapes&quot; &quot;birds&quot;      &quot;frogs&quot;      &quot;snakes&quot;    
+[7] &quot;plants&quot;     &quot;fish&quot;       &quot;inverts&quot;   
 names(oz_palettes$lizards) # See all lizard palettes
- [1] &quot;c.decresii&quot;    &quot;c.kingii&quot;      &quot;e.leuraensis&quot;  &quot;i.lesueurii&quot;  
- [5] &quot;l.boydii&quot;      &quot;m.horridus&quot;    &quot;m.horridus2&quot;   &quot;t.nigrolutea&quot; 
- [9] &quot;v.acanthurus&quot;  &quot;v.pilbarensis&quot; &quot;n.levis&quot;       &quot;s.spinigerus&quot; </code></pre>
+ [1] &quot;c.decresii&quot;    &quot;c.kingii&quot;      &quot;e.leuraensis&quot;  &quot;i.lesueurii&quot;   &quot;l.boydii&quot;     
+ [6] &quot;m.horridus&quot;    &quot;m.horridus2&quot;   &quot;t.nigrolutea&quot;  &quot;v.acanthurus&quot;  &quot;v.pilbarensis&quot;
+[11] &quot;n.levis&quot;       &quot;s.spinigerus&quot; </code></pre>
 <p>We can call a specific list using subsetting rules for lists.</p>
 <pre class="r"><code>oz_palettes[[&quot;warramaba&quot;]][[&quot;whitei&quot;]] # Subset the palette for Warramaba whitei, format: [[theme list]][[palette list]]
      [,1]      [,2]      [,3]      [,4]      [,5]      [,6]     
@@ -553,9 +566,9 @@ theme_classic()</code></pre>
 
 <footer>
 	    		<ul>
-	    		    <li><a href="https://jacintakongresearch.wordpress.com">Jacinta D. Kong</a></li>
-	        		<li><a href="mailto:kongj@tcd.ie">email</a></li>
-	        		<li><a href="https://github.com/jacintak">github.com/jacintak</a></li>
+	    		    <li><i class="fas fa-home"></i><a href="https://jacintakongresearch.wordpress.com"> Jacinta D. Kong</a></li>
+	        		<li><a class="fas fa-envelope" href="mailto:kongj@tcd.ie"></a></li>
+	        		<li><a class="fab fa-twitter" href="https://twitter.com/jacintakong"></a></li>
 				</ul>
 </footer>
 
