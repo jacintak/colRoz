@@ -9,8 +9,8 @@
 #'   \code{frogs}: palettes for Australian frogs,
 #'   \code{plants}: palettes for Australian plants,
 #'   \code{fish}: palettes for Australian fish,
-#'   \code{inverts}: palettes for Australian invertebrates
-#'
+#'   \code{inverts}: palettes for Australian invertebrates,
+#'   \code{mammals}: palettes for Australian mammals
 #' @return A vector of colours.
 #' @export
 #' @keywords colours palette
