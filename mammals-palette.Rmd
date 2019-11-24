@@ -1,0 +1,32 @@
+---
+title: "Mammals"
+date: "`r format.Date(Sys.Date(), format = '%d %b %Y')`"
+output: 
+  html_document:
+    theme: readable
+---
+
+```{r setup, echo=FALSE}
+htmltools::img(src=knitr::image_uri("images/colRoz_logo_v2.png"), style = "position:absolute; top:0; right:0", height=150)
+
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = NA,
+  echo = TRUE
+)
+library(colRoz)
+```
+
+# Palette names
+```{r ozpla}
+names(oz_palettes$mammals)
+```
+
+***
+# Palette photos
+
+![](images/p.breviceps.png){height=200}
+![](https://pbs.twimg.com/media/DkKQD_0V4AA35P6?format=jpg&name=medium){height=200}  
+
+![](images/thylacine.png){height=200}
+![](https://pbs.twimg.com/media/Cy6PuK7UsAEdY6M?format=jpg&name=4096x4096){height=200}  
