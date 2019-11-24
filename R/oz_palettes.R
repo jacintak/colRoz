@@ -49,7 +49,7 @@ oz_palettes <- list(
   ),
   landscapes = list(
     uluru = rbind(c("#543813","#E4733B","#D9842A","#DAB77F","#CFE0D8","#9CC3E0","#5981BC"), c(1,7,5,2,6,4,3)),
-    shark_bay = rbind(c( "#11100b","#313534", "#353922","#274f68","#89b8c0","#e6ecea"), c(4,1,6,2,3,5)),
+    shark_bay = rbind(c( "#343530", "#636051", "#A0A384","#A3BECF","#93B9AC", "#BDD6C3"), c(1,3,2,4,5,6)),
     sky = rbind(c( "#9dbfda","#6fa3dd", "#588ece","#336aaa","#295a9c","#1b4287"), c(4,1,5,2,6,3)),
     desert_sunset = rbind(c( "#626063", "#ad5e59","#fd7c45","#faba62","#ffffbb","#bbdadc"), c(5,1,2,3,6,4)),
     desert_dusk = rbind(c("#040605", "#0a183f","#1c407a","#a1a4b7","#f2bfa4","#ffd585"), c(6,5,1,2,3,4)),
