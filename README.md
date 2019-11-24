@@ -49,6 +49,9 @@ These are palettes based on some of Australia's wet & wild.
 
 **Community contributors:** Brenton von Takach
 
+### Mammals
+They have fur and produce milk.
+
 ***
 
 # Contributing
@@ -134,5 +137,10 @@ Contact N. Wu: <nicholas.wu.nz@gmail.com>
 ## Photo credits
 
 * *Warramaba*: Barry Kearney, Jacinta Kong
-* Lizards: Jannico Kelk, Ross McGibbon, Peter Soltys, Nicholas Wu, Steven Zozaya
-* Landscapes: Nicholas Wu, Jacinta Kong
+* Lizards: Jannico Kelk, Ross McGibbon, Peter Soltys, Nicholas Wu, Steven Zozaya, Jacinta Kong
+* Landscapes: Nicholas Wu, Jacinta Kong, Jordan Iles
+* Birds: Jessica McLachlan, Brenton von Takach, Jacinta Kong
+* Plants: Emma Dalziell, Sarah Mulhall
+* Inverts: Jacinta Kong, Craig White, Kate Umbers
+* Fish: Brenton von Takach
+* Mammals: Jacinta Kong

@@ -46,6 +46,8 @@ navbar:
          href: fish-palette.html
        - text: "Inverts"
          href: inverts-palette.html
+       - text: "Mammals"
+         href: mammals-palette.html
   right:
     - icon: fa-github
       href: https://github.com/jacintak

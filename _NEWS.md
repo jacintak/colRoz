@@ -1,4 +1,16 @@
-# colRoz 0.1.2
+# colRoz 0.2.2
+24 Nov 2019
+## JK
+
+* Added new palettes
+    * mammals: sugar glider, thylacine
+    * inverts: grasshoppers, moths, marine inverts
+    * egernia kingii
+    * emu
+    * Capricorn
+* Updated website with photots
+    
+# colRoz 0.2.1
 
 19 Nov 2019
 
