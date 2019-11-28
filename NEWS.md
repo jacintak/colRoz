@@ -1,4 +1,7 @@
 # colRoz 0.2.2
+28 Nov 2019
+JK: Some housekeeping - moved website pages to an orphan branch to keep the master branch clean
+
 24 Nov 2019
 ## JK
 
