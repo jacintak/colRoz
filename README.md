@@ -69,7 +69,7 @@ Palettes are stored in the R file `oz_palettes.R`. You can add individual palett
 
 # News
 
-See [news.md](https://github.com/jacintak/colRoz/blob/master/_NEWS.md) for latest updates
+See [news.md](https://github.com/jacintak/colRoz/blob/master/NEWS.md) for latest updates
 
 ***
 
