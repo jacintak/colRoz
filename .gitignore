@@ -3,3 +3,4 @@ colRoz-palettes.Rmd
 .Rproj.user
 index.Rmd
 .Rbuildignore
+*.Rproj
