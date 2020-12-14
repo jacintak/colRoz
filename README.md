@@ -12,46 +12,6 @@ Themed colour packages are all the rage. So Nicholas asked Jacinta to make him a
 # Palettes
 See the [colRoz website](https://jacintak.github.io/colRoz) for the full list of palettes.
 
-### *Warramaba*
-These are palettes based on the colours of matchstick grasshoppers in the genus *Warramaba*. You can read more about matchstick grasshoppers on [Jacinta's website](https://jacintakongresearch.wordpress.com/matchstick-grasshoppers/).
-
-### Lizards
-These are palettes based on some of Australia's favourite native scalys.
-
-### Landscapes
-These are palettes based on iconic Australian landscapes.
-
-**Community contributors:** Jordan Iles, Nicholas Wu
-
-### Birds
-These are palettes based on some of Australias colourful native avians.
-
-**Community contributors:** Jessica McLachlan, Brenton von Takach
-
-### Frogs
-To be added
-
-### Snakes
-To be added
-
-### Plants
-These are palettes based on some of Australias underrated native flora.
-
-**Community contributors:** Emma Dalziell, Sarah Mulhall
-
-### Inverts
-These are palettes based on some of Australia's tiny beauties.
-
-**Community contributors:** Craig White, Kate Umbers
-
-### Fish
-These are palettes based on some of Australia's wet & wild.
-
-**Community contributors:** Brenton von Takach
-
-### Mammals
-They have fur and produce milk.
-
 ***
 
 # Contributing
@@ -110,10 +70,10 @@ print_palette(colRoz_pal("c.decresii"))
 <img src="https://github.com/jacintak/colRoz/blob/master/images/ngadju.png" height=200><img src="https://jacintakongresearch.files.wordpress.com/2015/03/file_000.jpeg" height=200>
 
 ### Tawny dragon (*Ctenophorus decresii*)
-<img src="https://github.com/jacintak/colRoz/blob/gh-pages/images/c.decresii.png" height=200><img src="https://github.com/jacintak/colRoz/blob/gh-pages/raw_images/c.decresii.jpg" height=150>
+<img src="https://github.com/jacintak/colRoz/blob/gh-pages/images/c.decresii.png" height=200><img src="https://github.com/jacintak/jacintak.github.io/blob/master/content/colRoz/raw_images/c.decresii.jpg height=150>
 
 ### Blue Mountains water skink (*Eulamprus leuraensis*)
-<img src="https://github.com/jacintak/colRoz/blob/gh-pages/images/e.leuraensis.png" height=200><img src="https://github.com/jacintak/colRoz/blob/gh-pages/raw_images/e.leuraensis_P.Soltys.jpg" height=150>
+<img src="https://github.com/jacintak/colRoz/blob/gh-pages/images/e.leuraensis.png" height=200><img src="https://github.com/jacintak/jacintak.github.io/blob/master/content/colRoz/raw_images/e.leuraensis_P.Soltys.jpg" height=150>
 
 ***
 
