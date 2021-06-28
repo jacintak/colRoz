@@ -1,4 +1,6 @@
 # colRoz 0.2.2
+28 Jun 2021
+JK: Updated URLs to project website for housekeeping
 
 13 Nov 2020
 JK: Housekeeping on website and git
