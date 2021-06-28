@@ -12,7 +12,7 @@ Description: Does what the title says.
 License: MIT + License
 Encoding: UTF-8
 LazyData: true
-URL: https://jacintak.github.io/colRoz
+URL: https://jacintak.github.io/project/colRoz
 Suggests:
     ggplot2,
     knitr,

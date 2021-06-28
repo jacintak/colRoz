@@ -10,7 +10,7 @@
 Themed colour packages are all the rage. So Nicholas asked Jacinta to make him a colour package. These palettes are based on the colours of Australia which we can all agree is the most beautiful country in the world. If a kiwi can be convinced, then it must be so.
 
 # Palettes
-See the [colRoz website](https://jacintak.github.io/colRoz) for the full list of palettes.
+See the [colRoz website](https://jacintak.github.io/project/colRoz) for the full list of palettes.
 
 ***
 
